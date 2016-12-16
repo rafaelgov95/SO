@@ -3,3 +3,12 @@
 //
 
 #include "GerenciadorDeMemoria.h"
+
+GerenciadorDeMemoria::GerenciadorDeMemoria(const GerenciadorDeMemoria &orig) {
+
+}
+
+void *GerenciadorDeMemoria::alocar(unsigned long n) {
+
+
+}

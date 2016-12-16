@@ -1,7 +1,11 @@
 #include <iostream>
-#include <cstdlib>
-
+//#include "GerenciadorDeMemoria.h"
+using namespace std;
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    unsigned long n;
+    cout << "Digite o tamanho da memoria fisica!" << endl;
+    cin>>n;
+//    GerenciadorDeMemoria gerenciador();
+
     return 0;
 }
