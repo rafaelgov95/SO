@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/C-C++/AtendimentoSuperGerente/Atendente.cpp
+array
+-
+Atendente.h
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/C-C++/AtendimentoSuperGerente/Atendente.h
+
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/C-C++/AtendimentoSuperGerente/Atendente.h
+zconf.h
+-
+
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/C-C++/AtendimentoSuperGerente/main.cpp
+Atendente.h
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/C-C++/AtendimentoSuperGerente/Atendente.h
+iostream
+-
+

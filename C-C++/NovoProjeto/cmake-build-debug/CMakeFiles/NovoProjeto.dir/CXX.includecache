@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/C-C++/NovoProjeto/main.cpp
+unistd.h
+-
+string
+-
+iostream
+-
+

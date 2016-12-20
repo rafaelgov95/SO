@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/MegaRestaurante.dir/main.cpp.o CMakeFiles/MegaRestaurante.dir/Mesa.cpp.o CMakeFiles/MegaRestaurante.dir/Cozinheiro.cpp.o  -o MegaRestaurante 

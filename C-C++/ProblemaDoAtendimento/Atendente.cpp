@@ -4,35 +4,20 @@
 #include <array>
 #include "Atendente.h"
 using namespace std;
-Atendente::Atendente() {
-    pid = 0;
-    user = 0;
-    txt =" ";
-}
-Atendente::Atendente(pid_t pid, int user , string txt) {
-    this->pid = pid;
-    this->user = user;
-    this->txt=txt;
-}
-
-pid_t Atendente::getPid() {
-    return pid;
-}
-void Atendente::setPid(pid_t pid) {
-     this->pid = pid;
+Atendente::Atendente() : idUser(0),txt("") {
 }
 
 int Atendente::getUser() {
-    return user;
+    return idUser;
 }
 
-void Atendente::setUser(int user) {
-    this->user = user;
+void Atendente::setUser(int idUser) {
+    this->idUser = idUser;
 }
 
 string Atendente::getTxt() {
     return txt;
 }
-void Atendente::setTxt(string txt) {
-    this->txt = txt;
+void Atendente::anotarPedido(string &txt) {
+    this->txt.append(txt+";");
 }
