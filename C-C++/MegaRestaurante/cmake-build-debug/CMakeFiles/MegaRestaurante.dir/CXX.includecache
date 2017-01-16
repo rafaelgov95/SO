@@ -19,6 +19,8 @@ Mesa.h
 /home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/C-C++/MegaRestaurante/Mesa.h
 array
 -
+zconf.h
+-
 
 /home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/C-C++/MegaRestaurante/Mesa.h
 sched.h
@@ -35,12 +37,4 @@ string.h
 -
 unistd.h
 -
-sys/types.h
--
-iostream
--
-Cozinheiro.h
-/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/C-C++/MegaRestaurante/Cozinheiro.h
-Mesa.h
-/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/C-C++/MegaRestaurante/Mesa.h
 

@@ -10,6 +10,8 @@
 using namespace std;
 int lengPipe = 10;
 Mesa mesa[10];
+int fd[10][2];
+
 Cozinheiro SuperMestre[10];
 
 int CozinheiroDisponivel() {
@@ -26,40 +28,43 @@ int MesaDisponivel() {
     return -1;
 }
 
-int BuscarCliente(int b) {
-    if (mesa[b].getPid() > 0)return 1;
-    return -1;
-}
 
 
 int main() {
     string pedido;
-    int id = -1;
+    int id;
+    pid_t pid;
+    int clienteBuscado = -1;
+    bool flag = true;
     do {
-        cin >> id >> pedido;
-        int clienteBuscado = BuscarCliente(id);
-        cout << clienteBuscado << endl;
-        if (clienteBuscado > -1) {
-            close(mesa[id].fd[0]);
-            write(mesa[id].fd[1], &pedido, (sizeof(pedido)));
-            close(mesa[id].fd[1]);
+        if (pid == 0) {
+            if (clienteBuscado > -1) {
+                cout << "Passo aqui " << endl;
+                close(fd[clienteBuscado][0]);
 
+
+                close(fd[clienteBuscado][1]);
+            }
         } else {
+            cin >> id >> pedido;
+//            clienteBuscado = BuscarCliente(id);
+            cout << "Entenda isso rafael :D" << clienteBuscado << endl;
             cout << "Criar processo " << clienteBuscado << endl;
+
             if (CozinheiroDisponivel() >= 0) {
                 mesa[id].setPid(getpid());
-                pipe(mesa[id].fd);
+                pipe(fd[id]);
                 if (fork() == 0) {
-                    close(mesa[id].fd[1]);
+                    close(fd[id][1]);
                     cout << "lol" << endl;
                     string readbuffer;
-                    while (read(mesa[id].fd[0], &readbuffer, sizeof(readbuffer)) > 0) {
-                        cout << "String enviada: " << readbuffer << "Meu pid: " << getpid() << endl;
-                        if (pedido.compare("FIM")) {
-
+                    bool fim = true;
+                    do {
+                        while (read(fd[id][0], &readbuffer, 1) > 0) {
+                            write(STDOUT_FILENO, &readbuffer, 1);
                         }
-                    }
-                    cout << "estou escapando do while" << endl;
+                    } while (fim);
+
                 }
             } else {
                 cout << "Cozinheiros ocupados futuramente tera uma lista" << endl;
@@ -67,7 +72,7 @@ int main() {
 
         }
 
-    } while (1);
+    } while (flag);
 
     return (0);
 }

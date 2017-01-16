@@ -18,8 +18,8 @@ void Mesa::setPid(int pid) {
     this->pid = pid;
 }
 
-//void Mesa::ativarComunicacao() {
-//    close(fd[1]);
+//void Mesa::ativarComunicacao(int fd[2]) {
+//    this->fd[]=fd;
 //}
 
 //void Mesa::setPipe(int fd[]) {

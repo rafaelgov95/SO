@@ -7,7 +7,5 @@ CMakeFiles/MegaRestaurante.dir/Cozinheiro.cpp.o: ../Cozinheiro.h
 CMakeFiles/MegaRestaurante.dir/Mesa.cpp.o: ../Mesa.cpp
 CMakeFiles/MegaRestaurante.dir/Mesa.cpp.o: ../Mesa.h
 
-CMakeFiles/MegaRestaurante.dir/main.cpp.o: ../Cozinheiro.h
-CMakeFiles/MegaRestaurante.dir/main.cpp.o: ../Mesa.h
 CMakeFiles/MegaRestaurante.dir/main.cpp.o: ../main.cpp
 

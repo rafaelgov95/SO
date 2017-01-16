@@ -13,14 +13,14 @@ using namespace std;
 class Mesa {
 private:
     int pid;
-
+    int fd[];
     string pedido;
 public:
-    int fd[2];
+
 
     Mesa();
 
-    void ativarComunicacao();
+    void ativarComunicacao(int *fd);
 
     void setPid(int pid);
 
