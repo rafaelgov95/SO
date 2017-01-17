@@ -3,5 +3,5 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp Cozinheiro.cpp Cozinheiro.h)
+set(SOURCE_FILES main.cpp Cozinheiro.cpp Cozinheiro.h Mesa.cpp Mesa.h)
 add_executable(untitled ${SOURCE_FILES})

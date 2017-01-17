@@ -1,20 +1,28 @@
 //
-// Created by rafael on 12/01/17.
+// Created by rafael on 17/01/17.
 //
 
 #ifndef UNTITLED_MESA_H
 #define UNTITLED_MESA_H
 
-using namespace std;
+
+#include <string>
+#include "Cozinheiro.h"
 
 class Mesa {
 private:
     int id;
-    vector<>;
+    int idCozinheiro;
 public:
+//    ~Mesa();
+    Mesa();
+    Mesa(int idCozinheiro);
+    void setIdCozinheiro(int id);
+    int getIdCozinheiro();
 
-    int  getId();
+    void setId(int id);
+    int getId();
 };
 
 
-#endif //UNTITLED_COZINHEIRO_H
+#endif //UNTITLED_MESA_H

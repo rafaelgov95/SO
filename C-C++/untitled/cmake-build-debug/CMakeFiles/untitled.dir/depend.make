@@ -4,6 +4,11 @@
 CMakeFiles/untitled.dir/Cozinheiro.cpp.o: ../Cozinheiro.cpp
 CMakeFiles/untitled.dir/Cozinheiro.cpp.o: ../Cozinheiro.h
 
+CMakeFiles/untitled.dir/Mesa.cpp.o: ../Cozinheiro.h
+CMakeFiles/untitled.dir/Mesa.cpp.o: ../Mesa.cpp
+CMakeFiles/untitled.dir/Mesa.cpp.o: ../Mesa.h
+
 CMakeFiles/untitled.dir/main.cpp.o: ../Cozinheiro.h
+CMakeFiles/untitled.dir/main.cpp.o: ../Mesa.h
 CMakeFiles/untitled.dir/main.cpp.o: ../main.cpp
 

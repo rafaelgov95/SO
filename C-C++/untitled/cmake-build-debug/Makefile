@@ -150,6 +150,33 @@ Cozinheiro.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Cozinheiro.cpp.s
 .PHONY : Cozinheiro.cpp.s
 
+Mesa.o: Mesa.cpp.o
+
+.PHONY : Mesa.o
+
+# target to build an object file
+Mesa.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Mesa.cpp.o
+.PHONY : Mesa.cpp.o
+
+Mesa.i: Mesa.cpp.i
+
+.PHONY : Mesa.i
+
+# target to preprocess a source file
+Mesa.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Mesa.cpp.i
+.PHONY : Mesa.cpp.i
+
+Mesa.s: Mesa.cpp.s
+
+.PHONY : Mesa.s
+
+# target to generate assembly for a file
+Mesa.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Mesa.cpp.s
+.PHONY : Mesa.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... Cozinheiro.o"
 	@echo "... Cozinheiro.i"
 	@echo "... Cozinheiro.s"
+	@echo "... Mesa.o"
+	@echo "... Mesa.i"
+	@echo "... Mesa.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

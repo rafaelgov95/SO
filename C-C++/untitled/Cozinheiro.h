@@ -14,6 +14,7 @@ private:
     char temp[1024];
 public:
     Cozinheiro();
+//    ~Cozinheiro();
     void anotarPedido();
     void EnviarPedidoParaCozinheiro(const string &pedido);
     pid_t getPid();
