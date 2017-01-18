@@ -14,14 +14,11 @@ private:
     int id;
     int idCozinheiro;
 public:
-//    ~Mesa();
     Mesa();
     Mesa(int idCozinheiro);
     void setIdCozinheiro(int id);
     int getIdCozinheiro();
 
-    void setId(int id);
-    int getId();
 };
 
 

@@ -9,14 +9,16 @@ using namespace std;
 
 class Cozinheiro {
 private:
-    pid_t  pid;
+    pid_t pid;
     int fd[2];
     char temp[1024];
+    string append;
+    int idMesa;
 public:
-    Cozinheiro();
-//    ~Cozinheiro();
+    Cozinheiro(int idMesa);
     void anotarPedido();
     void EnviarPedidoParaCozinheiro(const string &pedido);
+    string getAppend();
     pid_t getPid();
 };
 

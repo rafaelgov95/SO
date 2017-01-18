@@ -11,50 +11,47 @@ bool flag = true;
 int id;
 string pedido;
 
-Cozinheiro *coz[10];
+Cozinheiro *coz[3];
 Mesa *mesa[18];
 Mesa *Espera[18];
 
 int BuscarCozinheiroDisponivel() {
-    for (int i = 0; i < sizeof(coz); ++i) {
+    for (int i = 0; i < (sizeof(coz) / sizeof(*coz)); ++i) {
         if (coz[i] == nullptr) return i;
     }
-    cout << "Nao Achou cozinheiro com esse ID ocupado." << endl;
     return -1;
 }
 
 int MesaDisponivel(int id) {
     if (mesa[id] == nullptr) return id;
-//    cout << "Mesa Ocupada está sendo Atendida pelo Cozinheiro Numero: " << mesa[id]->getIdCozinheiro() << endl;
     return -1;
 }
 
 int main() {
     while (flag) {
-        cin >> id >> pedido;
+
+        cin >> id;
+        getline(cin, pedido);
         if (MesaDisponivel(id) >= 0) {
             cout << "Seja bem Vindo ao Restaurante Mesa: " << id << endl;
             int index = BuscarCozinheiroDisponivel();
             if (index >= 0) {
                 mesa[id] = new Mesa(index);
-                coz[index] = new Cozinheiro();
+                coz[index] = new Cozinheiro(id);
                 cout << "Seu cozinheiro é: " << index << endl;
+                coz[mesa[id]->getIdCozinheiro()]->EnviarPedidoParaCozinheiro(pedido);
             } else {
-                mesa[id] = new Mesa();
-                cout << " Mesa Foi para Lista de espera" << endl;
+                cout << " Mesa Foi para lista de espera sem cozinheiro disponivel " << endl;
             }
         } else {
-            if (pedido == "sair") {
-                cout << "Saiu agora" << endl;
-                coz[mesa[id]->getIdCozinheiro()] = nullptr;
-                mesa[id] = nullptr;
-            } else {
-                coz[mesa[id]->getIdCozinheiro()]->EnviarPedidoParaCozinheiro(pedido);
-            }
-
+            cout << "Seu cozinheiro é: " << mesa[id]->getIdCozinheiro() << endl;
+            coz[mesa[id]->getIdCozinheiro()]->EnviarPedidoParaCozinheiro(pedido);
         }
+
     }
 }
+
+
 
 
 
