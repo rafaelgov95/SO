@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/Trabalho Fork/untitled/Cozinheiro.cpp
+zconf.h
+-
+cstdlib
+-
+cstring
+-
+signal.h
+-
+iostream
+-
+Cozinheiro.h
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/Trabalho Fork/untitled/Cozinheiro.h
+
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/Trabalho Fork/untitled/Cozinheiro.h
+fstream
+-
+
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/Trabalho Fork/untitled/Mesa.cpp
+signal.h
+-
+iostream
+-
+Mesa.h
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/Trabalho Fork/untitled/Mesa.h
+
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/Trabalho Fork/untitled/Mesa.h
+string
+-
+Cozinheiro.h
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/Trabalho Fork/untitled/Cozinheiro.h
+
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/Trabalho Fork/untitled/Restaurante.cpp
+csignal
+-
+iostream
+-
+zconf.h
+-
+Restaurante.h
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/Trabalho Fork/untitled/Restaurante.h
+
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/Trabalho Fork/untitled/Restaurante.h
+string
+-
+queue
+-
+Cozinheiro.h
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/Trabalho Fork/untitled/Cozinheiro.h
+Mesa.h
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/Trabalho Fork/untitled/Mesa.h
+
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/Trabalho Fork/untitled/main.cpp
+iostream
+-
+Restaurante.h
+/home/rafael/Documentos/Repositorios/Materias/4Semestre/Trabalho Fork/untitled/Restaurante.h
+
