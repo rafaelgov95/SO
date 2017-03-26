@@ -12,6 +12,7 @@
 *.cb
 *.cb2
 *.tex
+*.synctex.gz
 
 ## Outros ##
 /Thread/NetThread/build/
