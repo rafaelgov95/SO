@@ -1,0 +1,10 @@
+ChefeCozinha_2
+
+MESA 3:
+  -  bife acebolado
+  -  suco natural de laranja (250ml)
+  -  bolo de chocolate
+
+MESA 1:
+  -  pizza de calabresa
+  -  pizza de lombo ao creme
