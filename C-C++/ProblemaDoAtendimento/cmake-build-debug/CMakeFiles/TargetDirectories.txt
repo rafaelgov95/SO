@@ -1,3 +1,0 @@
-/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/C-C++/ProblemaDoAtendimento/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/C-C++/ProblemaDoAtendimento/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/C-C++/ProblemaDoAtendimento/cmake-build-debug/CMakeFiles/ProblemaDoAtendimento.dir

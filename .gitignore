@@ -11,7 +11,8 @@
 *.fot
 *.cb
 *.cb2
+*.tex
 
 ## Outros ##
 /Thread/NetThread/build/
-.idea
+*.idea

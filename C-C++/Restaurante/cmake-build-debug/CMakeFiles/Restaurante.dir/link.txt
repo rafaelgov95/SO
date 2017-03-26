@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/Restaurante.dir/main.cpp.o CMakeFiles/Restaurante.dir/RestauranteApp.cpp.o CMakeFiles/Restaurante.dir/Restaurante.cpp.o CMakeFiles/Restaurante.dir/ChefeCozinha.cpp.o  -o Restaurante 
