@@ -1,0 +1,150 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazilian]{babel}
+\usepackage{verbatim}
+
+\title{Lista de Exercícios - Memória}
+\author{Rafael Gonçalves de Oliveira Viana}
+\date{4º semestre de 2017}
+
+\begin{document}
+
+\maketitle
+
+\begin{enumerate}
+\item
+Em um sistema sem abstração de memória com múltiplos processos em
+memória, porque é necessário uma forma de realocação ?
+\subparagraph{Resposta}
+Por que cada programa que esta rodando foi compilado como constantes, e para que um novo processo entre em execução é precisso liberar o endereço de memoria, salvando o processo anterior em disco(relaocando ele em disco), e então permitindo que o novo processo manipule a memória, sem prejudicar o programa anterior porém isso e custoso para o S.O.
+\item
+Qual forma de realocação (estática ou dinâmica) é mais fácil de ser
+usada pelo S.O.? Cite um motivo pelo qual o S.O. não consiga utilizar
+o método mais fácil.
+\subparagraph{Resposta}
+Realoção dinâmica o S.O  e quem é que determina os valores do registrador-base e do registrador-limite, que faz o calculo de posicionamento diferente na memória física. Um dos principais motivos do sistema operacional não a utilizar é porque nesse esquema como o processo está totalmente "carregado"em memória, se o número de processos for muito grande, manter todos eles em memória estouraria sua capacidade, precisando então fazer swap a cada vez que um novo processo não "coubesse" em memória. Com a memória virtual, você só precisa manter partes do processo em memória, e não é necessário estar em partes consecutivas. 
+
+\item
+Suponha que o S.O. utilize realocação estática dos processos e a
+memória está muito fragmentada. Em um dado momento, o S.O. decide
+compactar a memória, movendo os segmentos de processos para o início
+da memória. Esta operação seria mais eficiente se fosse usada
+realocação dinâmica? Porque?
+\subparagraph{Resposta}
+	Sim. Deixaria menos espaços fragmentados, sendo assim os espaços inutilizados seram menore. Quando as trocas de processos deixam "muitos" espaços vazios na memória, é possivel combiná-las todos em um único espaço contíguo de memória, movendo-os, o máximo possível, para os endereços mais baixos. Essa técnica é denominada compactção de memória. Ela geramente não é usada em virtude do tempo de processamento necessário.
+
+\item
+Suponha que três processos executam e necessitam, respectivamente, de
+1GiB, 0,5GiB e 1,5GiB de memória. A máquina em que executam tem apenas
+2GiB de memória. Qual forma de gerenciamento de memória seria mais
+eficiente nesta situação, sendo impossível alterar o código dos
+processos?
+\subparagraph{Resposta}
+Os processos 2 e 3 são executados juntos, quando termina o processo 1 e colocado em memoria.
+
+\item
+Suponha que o S.O. implemente paginação de memória e apenas 10\% das
+páginas de cada processo estejam na memória e todas demais em
+disco. Se houverem 10 processos prontos que ainda tem muito o que
+executar, é possível que executem sem que as faltas de páginas se
+tornem um gargalo de desempenho? Explique.
+\subparagraph{Resposta}
+
+Sim, Se um programa estiver esperando por outra parte de si próprio ser carregada na memória, a CPU poderá ser dada a outro processo sem que ele fique bloqueado dando continuidade aos demais processos que tambem serão carregados do disco.
+
+\item
+Suponha que o acesso ao endereço de memória $1056 = 10000100000_2$
+deva ser traduzido pela MMU em um endereço real de memória. Suponha
+ainda que a página $1$ está na moldura $5$ (a página $0$ é a
+primeira). Calcule o endereço real para páginas de $997$ bytes e para
+páginas de $1024$ bytes. Você pode calcular em binário se achar mais
+fácil.
+\subparagraph{Resposta}
+
+
+
+
+
+\item
+Suponha que você está projetando um sistema de paginação para uma
+máquina de 32 bits cujo endereço das páginas tem 14 bits e cada
+entrada da tabela de páginas deve conter 6 bits de status além do
+número da moldura. Se você usar uma única tabela de páginas, qual é o
+tamanho mínimo da tabela?
+\subparagraph{Resposta}
+Sobram 17 bits, o tamanha de página seria de 2exp17
+
+\item
+Agora suponha que você está usando tabelas de página em dois níveis e
+que o endereço da página seja subdividido em duas partes desiguais. A
+primeira parte, usada para endereçar a tabela de primeiro nível tem 6
+bits. A segunda parte tem 12 bits e endereça as tabelas de segundo
+nível. Qual o tamanho máximo da tabela de páginas (sobram 14 bits para
+o deslocamento) considerando que cada entrada precisa de 6 bits de
+status?
+\subparagraph{Resposta}
+32  bits divididos em um campo PT1 de 6 bits, um campo PT2 de 10 bits e um campo Deslocamento de 14 bits, as páginas são de tamanho 16 KB. Os outros dois campos tem conjuntamente 16bits o que possibilita um total de 2exp20
+\item
+A ideia por trás do endereçamento em dois níveis é usar menos memória
+para armazenar a tabela de páginas. Como isso é possível no caso acima
+descrito?
+\subparagraph{Resposta}
+ Simples a ideia é evitar manter na memória todas tabelas de página o tempo todo, fazendo ela carregar apenas o tabela principal e se necessario trazer para memória a tabela secundaria.
+
+\item
+Suponha que a TLB tenha 32 entradas. Qual o tamanho máximo do espaço
+de endereçamento que a TLB pode traduzir se o tamanho da página é de
+4KiB?
+
+\subparagraph{Resposta}
+\item
+Suponha uma máquina de 64 bits com páginas de 4KiB e um total de 8GiB
+de memória física. O gerenciador de memória do S.O. utiliza uma tabela
+de páginas invertida que armazena, em cada linha, o número da página,
+o número do processo (14 bits) e mais 6 bits de estado. Qual é o tamanho
+da tabela?
+\subparagraph{Resposta}
+\item
+Qual é o maior problema com as tabelas de páginas invertidas? Indique
+algumas maneiras de minimizá-lo.
+\subparagraph{Resposta}
+\item
+Suponha que uma falta de página leve 10ms para ser resolvida (trazer a
+página para a memória) e que uma instrução normalmente executa em 1ns
+(se não houver faltas de páginas). Um determinado programa leva 3
+minutos para executar e sofre um total de 15.000 faltas de página. Seu
+dono decide, então, dobrar a quantidade de memória da máquina e
+observa que o número de faltas de página reduziu-se pela
+metade. Quanto tempo o programa demora para executar na nova
+configuração?
+\subparagraph{Resposta}
+\item
+Suponha uma máquina com apenas 4 molduras de página e um processo com
+8 páginas. Inicialmente todas as molduras estão livres e o processo
+começa a executar, fazendo acesso às seguintes páginas:
+\[ 1, 1, 0, 2, 3, 2, 5, 0, 4, 0, 2, 6, 2, 0, 3, 5, 3, 2, 7, 3 \]
+Simule a execução do algoritmo FIFO (mais antigo sai) e do
+relógio. Isto é, determine qual página é removida da memória para dar
+lugar a cada página ausente.
+\subparagraph{Resposta}
+\item
+Retome a situação anterior e suponha que a cada 5 referências à
+memória ocorre um ciclo de atualização de contadores. Simule os
+algoritmos NFU e WSClock.
+\subparagraph{Resposta}
+%% \item
+%% Suponha que uma máquina possui 12KiB de memória e está utilizando
+%% segmentação pura. Quando um segmento deve ser carregado do disco em
+%% memória, um algoritmo é executado para encontrar uma lacuna grande o
+%% suficiente e o segmento é copiado para o começo da lacuna. Suponha que
+%% um processo tenha 8 segmentos, cujos tamanhos são 2, 3, 4, 1, 2, 2, 3,
+%% 2, respectivamente. Quando não existe lacuna grande o suficiente, o
+%% sistema remove o menor segmento tal que a lacuna formada é
+%% suficientemente grande. Se nenhum segmento satisfizer a condição, o
+%% segmento mais antigo é removido e o algoritmo é reiniciado.
+
+%% Simule a execução do algoritmo da melhor escolha para a seguinte
+%% sequência de acessos a segmentos: 0, 2, 1, 4, 6, 7, 3
+\end{enumerate}
+\end{document}

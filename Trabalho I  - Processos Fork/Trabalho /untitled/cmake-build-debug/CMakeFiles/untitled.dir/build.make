@@ -43,10 +43,10 @@ RM = /opt/clion-2016.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rafael/Documentos/untitled
+CMAKE_SOURCE_DIR = "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rafael/Documentos/untitled/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/untitled.dir/flags.make
 
 CMakeFiles/untitled.dir/main.cpp.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafael/Documentos/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/main.cpp.o -c /home/rafael/Documentos/untitled/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/main.cpp.o -c "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/main.cpp"
 
 CMakeFiles/untitled.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafael/Documentos/untitled/main.cpp > CMakeFiles/untitled.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/main.cpp" > CMakeFiles/untitled.dir/main.cpp.i
 
 CMakeFiles/untitled.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafael/Documentos/untitled/main.cpp -o CMakeFiles/untitled.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/main.cpp" -o CMakeFiles/untitled.dir/main.cpp.s
 
 CMakeFiles/untitled.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/untitled.dir/main.cpp.o.provides.build: CMakeFiles/untitled.dir/main.
 
 CMakeFiles/untitled.dir/Cozinheiro.cpp.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/Cozinheiro.cpp.o: ../Cozinheiro.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafael/Documentos/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Cozinheiro.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Cozinheiro.cpp.o -c /home/rafael/Documentos/untitled/Cozinheiro.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Cozinheiro.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Cozinheiro.cpp.o -c "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/Cozinheiro.cpp"
 
 CMakeFiles/untitled.dir/Cozinheiro.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Cozinheiro.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafael/Documentos/untitled/Cozinheiro.cpp > CMakeFiles/untitled.dir/Cozinheiro.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/Cozinheiro.cpp" > CMakeFiles/untitled.dir/Cozinheiro.cpp.i
 
 CMakeFiles/untitled.dir/Cozinheiro.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Cozinheiro.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafael/Documentos/untitled/Cozinheiro.cpp -o CMakeFiles/untitled.dir/Cozinheiro.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/Cozinheiro.cpp" -o CMakeFiles/untitled.dir/Cozinheiro.cpp.s
 
 CMakeFiles/untitled.dir/Cozinheiro.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/untitled.dir/Cozinheiro.cpp.o.provides.build: CMakeFiles/untitled.dir
 
 CMakeFiles/untitled.dir/Mesa.cpp.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/Mesa.cpp.o: ../Mesa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafael/Documentos/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/Mesa.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Mesa.cpp.o -c /home/rafael/Documentos/untitled/Mesa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/Mesa.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Mesa.cpp.o -c "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/Mesa.cpp"
 
 CMakeFiles/untitled.dir/Mesa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Mesa.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafael/Documentos/untitled/Mesa.cpp > CMakeFiles/untitled.dir/Mesa.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/Mesa.cpp" > CMakeFiles/untitled.dir/Mesa.cpp.i
 
 CMakeFiles/untitled.dir/Mesa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Mesa.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafael/Documentos/untitled/Mesa.cpp -o CMakeFiles/untitled.dir/Mesa.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/Mesa.cpp" -o CMakeFiles/untitled.dir/Mesa.cpp.s
 
 CMakeFiles/untitled.dir/Mesa.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/untitled.dir/Mesa.cpp.o.provides.build: CMakeFiles/untitled.dir/Mesa.
 
 CMakeFiles/untitled.dir/Restaurante.cpp.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/Restaurante.cpp.o: ../Restaurante.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafael/Documentos/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/Restaurante.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Restaurante.cpp.o -c /home/rafael/Documentos/untitled/Restaurante.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/Restaurante.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Restaurante.cpp.o -c "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/Restaurante.cpp"
 
 CMakeFiles/untitled.dir/Restaurante.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Restaurante.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafael/Documentos/untitled/Restaurante.cpp > CMakeFiles/untitled.dir/Restaurante.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/Restaurante.cpp" > CMakeFiles/untitled.dir/Restaurante.cpp.i
 
 CMakeFiles/untitled.dir/Restaurante.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Restaurante.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafael/Documentos/untitled/Restaurante.cpp -o CMakeFiles/untitled.dir/Restaurante.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/Restaurante.cpp" -o CMakeFiles/untitled.dir/Restaurante.cpp.s
 
 CMakeFiles/untitled.dir/Restaurante.cpp.o.requires:
 
@@ -169,7 +169,7 @@ untitled: CMakeFiles/untitled.dir/Mesa.cpp.o
 untitled: CMakeFiles/untitled.dir/Restaurante.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rafael/Documentos/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,6 +189,6 @@ CMakeFiles/untitled.dir/clean:
 .PHONY : CMakeFiles/untitled.dir/clean
 
 CMakeFiles/untitled.dir/depend:
-	cd /home/rafael/Documentos/untitled/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rafael/Documentos/untitled /home/rafael/Documentos/untitled /home/rafael/Documentos/untitled/cmake-build-debug /home/rafael/Documentos/untitled/cmake-build-debug /home/rafael/Documentos/untitled/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/cmake-build-debug" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/cmake-build-debug" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Trabalho I  - Processos Fork/Trabalho /untitled/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/untitled.dir/depend
 
