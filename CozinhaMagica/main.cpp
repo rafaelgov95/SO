@@ -15,7 +15,7 @@ int main() {
 //    coz[j].EnviarPedido(comidas[j]);
 //    }
 
-/// sem o for funcona perfeitamente!
+/// sem o for funciona perfeitamente!
 
     coz[0].EnviarPedido(comidas[0]);
     coz[1].EnviarPedido(comidas[1]);

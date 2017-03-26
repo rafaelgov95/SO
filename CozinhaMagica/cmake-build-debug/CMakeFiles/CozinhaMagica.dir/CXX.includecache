@@ -6,35 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/CozinhaMagica/Cardapio.cpp
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.cpp
 iostream
 -
 Cardapio.h
-/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/CozinhaMagica/Cardapio.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.h
 
-/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/CozinhaMagica/Cardapio.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.h
 string
 -
 
-/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/CozinhaMagica/Cozinheiro.cpp
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.cpp
 iostream
 -
 unistd.h
 -
 Cozinheiro.h
-/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/CozinhaMagica/Cozinheiro.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.h
 Cardapio.h
-/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/CozinhaMagica/Cardapio.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.h
 
-/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/CozinhaMagica/Cozinheiro.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.h
 pthread.h
 -
 
-/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/CozinhaMagica/main.cpp
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/main.cpp
 iostream
 -
 Cozinheiro.h
-/home/rafael/Documentos/Repositorios/Materias/4Semestre/SOO/CozinhaMagica/Cozinheiro.h
-pthread.h
--
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.h
 
