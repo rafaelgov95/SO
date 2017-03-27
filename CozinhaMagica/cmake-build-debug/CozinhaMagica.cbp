@@ -102,6 +102,12 @@
 		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.h">
 			<Option target="CozinhaMagica"/>
 		</Unit>
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Pedido.cpp">
+			<Option target="CozinhaMagica"/>
+		</Unit>
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Pedido.h">
+			<Option target="CozinhaMagica"/>
+		</Unit>
 		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Restaurante.cpp">
 			<Option target="CozinhaMagica"/>
 		</Unit>

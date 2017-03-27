@@ -204,6 +204,33 @@ Cozinheiro.cpp.s:
 	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.s
 .PHONY : Cozinheiro.cpp.s
 
+Pedido.o: Pedido.cpp.o
+
+.PHONY : Pedido.o
+
+# target to build an object file
+Pedido.cpp.o:
+	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Pedido.cpp.o
+.PHONY : Pedido.cpp.o
+
+Pedido.i: Pedido.cpp.i
+
+.PHONY : Pedido.i
+
+# target to preprocess a source file
+Pedido.cpp.i:
+	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Pedido.cpp.i
+.PHONY : Pedido.cpp.i
+
+Pedido.s: Pedido.cpp.s
+
+.PHONY : Pedido.s
+
+# target to generate assembly for a file
+Pedido.cpp.s:
+	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Pedido.cpp.s
+.PHONY : Pedido.cpp.s
+
 Restaurante.o: Restaurante.cpp.o
 
 .PHONY : Restaurante.o
@@ -276,6 +303,9 @@ help:
 	@echo "... Cozinheiro.o"
 	@echo "... Cozinheiro.i"
 	@echo "... Cozinheiro.s"
+	@echo "... Pedido.o"
+	@echo "... Pedido.i"
+	@echo "... Pedido.s"
 	@echo "... Restaurante.o"
 	@echo "... Restaurante.i"
 	@echo "... Restaurante.s"

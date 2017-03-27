@@ -12,7 +12,7 @@ using namespace std;
 class Comida {
 public:
     string nome;
-    int tempo;
+    unsigned int tempo;
 private:
 
 };

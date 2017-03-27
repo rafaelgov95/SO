@@ -37,16 +37,30 @@ Cozinheiro.h
 /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.h
 Cardapio.h
 /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.h
+Pedido.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Pedido.h
 
 /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.h
 pthread.h
 -
 Comida.h
 /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Comida.h
+Pedido.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Pedido.h
+
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Pedido.cpp
+Pedido.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Pedido.h
+
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Pedido.h
+Comida.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Comida.h
 
 /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Restaurante.cpp
 Restaurante.h
 /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Restaurante.h
+Pedido.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Pedido.h
 
 /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Restaurante.h
 queue

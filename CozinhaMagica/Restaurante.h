@@ -14,17 +14,19 @@
 
 class Restaurante {
 private:
-
     Cozinheiro cozz[10];
     queue<int> cozDisp;
-//    Cozinheiro **coz;   para criar dinamicamente
+    int mesa[20];
 public:
-    int m, c;
-    Cardapio cardapio;
     Restaurante();
+
+    Cardapio cardapio;
+    bool CheckMesaDisponivel(int n);
     int BuscarCozinheiroDisponivel();
+
     void AdicionarCozinheiroDisponivel(int coz);
-    void EnviarPedido(Comida nomeDaComida);
+
+    void EnviarPedido(Comida nomeDaComida,int mesa);
 };
 
 

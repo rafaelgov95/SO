@@ -7,6 +7,7 @@
 
 #include <pthread.h>
 #include "Comida.h"
+#include "Pedido.h"
 
 using namespace std;
 class Cozinheiro {
@@ -15,7 +16,7 @@ public:
 
     ~Cozinheiro();
 
-    void EnviarPedido(Comida &pedido);
+    void EnviarPedido(Pedido &pedido);
 
     void AguardarPedido();
 

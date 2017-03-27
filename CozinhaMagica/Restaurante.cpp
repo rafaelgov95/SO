@@ -3,10 +3,14 @@
 //
 
 #include "Restaurante.h"
+#include "Pedido.h"
 
 Restaurante::Restaurante() {
     for (int i = 0; i < 10; ++i) {
         AdicionarCozinheiroDisponivel(i);
+    }
+    for (int j = 0; j < 20; ++j) {
+        mesa[j] = 0;
     }
 }
 
@@ -23,10 +27,22 @@ void Restaurante::AdicionarCozinheiroDisponivel(int coz) {
     cozDisp.push(coz);
 }
 
-void Restaurante::EnviarPedido(Comida comida) {
+void Restaurante::EnviarPedido(Comida comida, int mesa) {
+    Pedido p;
+    p.mesa = mesa;
+    p.comida = comida;
     int index = BuscarCozinheiroDisponivel();
-    cout << "Cozinhero Nº " << index << endl;
-    cozz[index].EnviarPedido(comida);
+    if (index > -1) {
+        cout << "Cozinhero Nº " << index << " Mesa: " << p.mesa << " Cozinhar: " << p.comida.nome << endl;
+        cozz[index].EnviarPedido(p);
+    }
 
+}
 
+bool Restaurante::CheckMesaDisponivel(int n) {
+    if (mesa[n] == 0) {
+        mesa[n] = 1;
+        return true;
+    }
+    return false;
 }
