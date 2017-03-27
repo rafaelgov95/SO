@@ -4,10 +4,24 @@
 CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o
  /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.cpp
  /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.h
+ /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Comida.h
+CMakeFiles/CozinhaMagica.dir/Comida.cpp.o
+ /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Comida.cpp
+ /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Comida.h
 CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o
  /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.h
+ /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Comida.h
  /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.cpp
  /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.h
-CMakeFiles/CozinhaMagica.dir/main.cpp.o
+CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o
+ /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.h
+ /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Comida.h
  /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.h
+ /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Restaurante.cpp
+ /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Restaurante.h
+CMakeFiles/CozinhaMagica.dir/main.cpp.o
+ /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.h
+ /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Comida.h
+ /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.h
+ /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Restaurante.h
  /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/main.cpp

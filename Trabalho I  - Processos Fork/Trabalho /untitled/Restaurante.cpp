@@ -6,6 +6,7 @@
 #include <iostream>
 #include <zconf.h>
 #include <wait.h>
+#include <unistd.h>
 
 #include "Restaurante.h"
 

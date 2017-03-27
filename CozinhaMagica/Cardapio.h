@@ -6,13 +6,21 @@
 #define COZINHAMAGICA_CARDAPIO_H
 
 #include <string>
+#include <queue>
+#include "Comida.h"
 
 using namespace std;
 
 class Cardapio {
 public:
-    unsigned int tempoDePreparo(string p);
+    void addComida(string name, unsigned int tempo);
 
+    Comida buscarComida(string nomeDaComida);
+
+private:
+
+    Comida Cardapio[100];
+    unsigned int size=0;
 };
 
 

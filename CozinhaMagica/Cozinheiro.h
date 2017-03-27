@@ -6,6 +6,8 @@
 #define COZINHAMAGICA_COZINHEIRO_H
 
 #include <pthread.h>
+#include "Comida.h"
+
 using namespace std;
 class Cozinheiro {
 public:
@@ -13,7 +15,7 @@ public:
 
     ~Cozinheiro();
 
-    void EnviarPedido(string pedido);
+    void EnviarPedido(Comida &pedido);
 
     void AguardarPedido();
 

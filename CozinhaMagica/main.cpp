@@ -1,32 +1,16 @@
 #include <iostream>
-#include "Cozinheiro.h"
+#include <unistd.h>
+#include "Cardapio.h"
+#include "Restaurante.h"
 
 
 int main() {
-    Cozinheiro coz[3];
-    string comidas[3];
-    comidas[0] = "feijao";
-    comidas[1] = "pao";
-    comidas[2] = "x";
+    Restaurante rest;
 
-/// Esse for nao funciona ele enviar " x "  para todos pratos
+    rest.cardapio.addComida("Feijao", 10);
+    rest.cardapio.addComida("Arroz", 20);
+    rest.EnviarPedido(rest.cardapio.buscarComida("Feijao"));
 
-//    for (int j = 0; j < 3; j++) {
-//    coz[j].EnviarPedido(comidas[j]);
-//    }
-
-/// sem o for funciona perfeitamente!
-
-    coz[0].EnviarPedido(comidas[0]);
-    coz[1].EnviarPedido(comidas[1]);
-    coz[2].EnviarPedido(comidas[2]);
-
-
-
-
-    for (int i = 0; i < 3; i++) {
-        coz[i].AguardarPedido();
-    }
     std::cout << "Todos Pratos Estão prontos !! Obrigado Pela Preferência :D" << std::endl;
     return 0;
 }

@@ -90,10 +90,22 @@
 		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.h">
 			<Option target="CozinhaMagica"/>
 		</Unit>
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Comida.cpp">
+			<Option target="CozinhaMagica"/>
+		</Unit>
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Comida.h">
+			<Option target="CozinhaMagica"/>
+		</Unit>
 		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.cpp">
 			<Option target="CozinhaMagica"/>
 		</Unit>
 		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.h">
+			<Option target="CozinhaMagica"/>
+		</Unit>
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Restaurante.cpp">
+			<Option target="CozinhaMagica"/>
+		</Unit>
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Restaurante.h">
 			<Option target="CozinhaMagica"/>
 		</Unit>
 		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/main.cpp">

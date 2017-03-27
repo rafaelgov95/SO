@@ -7,8 +7,10 @@
 #include <unistd.h>
 #include "Cozinheiro.h"
 #include "Cardapio.h"
+
 using namespace std;
-Cardapio cardapio;
+
+
 Cozinheiro::Cozinheiro() {
 }
 
@@ -17,16 +19,19 @@ Cozinheiro::~Cozinheiro() {
 }
 
 void *Cozinheiro::Cozinhar(void *pedido) {
-    string p = *((string *) pedido);
-    cout << "pedido enviado para a cozinha " << p << endl;
-    sleep(cardapio.tempoDePreparo(p));
-    cout<< p <<" está pronto"<<endl;
+    Comida p = *((Comida *) pedido);
+    cout << "pedido enviado para a cozinha " << p.nome << endl;
+    cout << "Tempo de Preparo: " << p.tempo << endl;
+    sleep(p.tempo);
+    cout << p.nome << " está pronto" << endl;
 }
 
-void Cozinheiro::EnviarPedido(string valor) {
+void Cozinheiro::EnviarPedido(Comida &valor) {
+
     if (pthread_create(&thread, NULL, Cozinhar, &valor) != 0) {
 
     }
+    AguardarPedido();
 }
 
 void Cozinheiro::AguardarPedido() {
