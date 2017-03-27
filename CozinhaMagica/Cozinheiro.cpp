@@ -25,6 +25,7 @@ void *Cozinheiro::Cozinhar(void *pedido) {
     cout << " Tempo de Preparo: " << p.comida.tempo << endl;
     sleep(p.comida.tempo);
     cout << p.comida.nome << " está pronto" << endl;
+    //como devolver o sozinheiro para lista de cozinheiros???
 }
 
 void Cozinheiro::EnviarPedido(Pedido &valor) {

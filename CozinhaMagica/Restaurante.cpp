@@ -35,6 +35,8 @@ void Restaurante::EnviarPedido(Comida comida, int mesa) {
     if (index > -1) {
         p.cozinhero=index;
         cozz[index].EnviarPedido(p);
+    }else{
+        cout <<"Não tem Cozinheiro Disponivel"<<endl;
     }
 
 }
