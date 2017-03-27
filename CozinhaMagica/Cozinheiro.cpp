@@ -21,7 +21,7 @@ Cozinheiro::~Cozinheiro() {
 
 void *Cozinheiro::Cozinhar(void *pedido) {
     Pedido p = *((Pedido *) pedido);
-    cout << "Mesa: " << p.mesa << " Pediu: " << p.comida.nome ;
+    cout << "Sou o Cozinhero Nº: " << p.cozinhero << " Mesa: " << p.mesa << " Pediu: " << p.comida.nome;
     cout << " Tempo de Preparo: " << p.comida.tempo << endl;
     sleep(p.comida.tempo);
     cout << p.comida.nome << " está pronto" << endl;

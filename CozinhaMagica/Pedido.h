@@ -10,7 +10,9 @@
 
 class Pedido {
 public:
+
     Comida comida;
+    int cozinhero;
     int mesa;
 };
 

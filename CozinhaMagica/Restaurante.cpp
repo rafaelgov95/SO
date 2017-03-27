@@ -33,7 +33,7 @@ void Restaurante::EnviarPedido(Comida comida, int mesa) {
     p.comida = comida;
     int index = BuscarCozinheiroDisponivel();
     if (index > -1) {
-        cout << "Cozinhero Nº " << index << " Mesa: " << p.mesa << " Cozinhar: " << p.comida.nome << endl;
+        p.cozinhero=index;
         cozz[index].EnviarPedido(p);
     }
 
