@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica2/Restaurante.cpp">
+			<Option target="CozinhaMagica2"/>
+		</Unit>
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica2/Restaurante.h">
+			<Option target="CozinhaMagica2"/>
+		</Unit>
 		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica2/main.cpp">
 			<Option target="CozinhaMagica2"/>
 		</Unit>

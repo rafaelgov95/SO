@@ -6,6 +6,6 @@ set(CMAKE_CXX_STANDARD 11)
 include_directories(/usr/include/)
 link_directories(/usr/include/)
 
-set(SOURCE_FILES main.cpp )
+set(SOURCE_FILES main.cpp Restaurante.cpp Restaurante.h)
 add_executable(CozinhaMagica2 ${SOURCE_FILES})
 target_link_libraries(CozinhaMagica2 pthread -lm -lrt)

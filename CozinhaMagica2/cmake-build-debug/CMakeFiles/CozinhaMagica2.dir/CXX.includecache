@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica2/Restaurante.cpp
+iostream
+-
+semaphore.h
+-
+unistd.h
+-
+Restaurante.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica2/Restaurante.h
+
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica2/Restaurante.h
+sys/types.h
+-
+
 /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica2/main.cpp
 iostream
 -
@@ -13,4 +27,6 @@ semaphore.h
 -
 unistd.h
 -
+Restaurante.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica2/Restaurante.h
 

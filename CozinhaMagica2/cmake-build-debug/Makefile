@@ -123,6 +123,33 @@ CozinhaMagica2/fast:
 	$(MAKE) -f CMakeFiles/CozinhaMagica2.dir/build.make CMakeFiles/CozinhaMagica2.dir/build
 .PHONY : CozinhaMagica2/fast
 
+Restaurante.o: Restaurante.cpp.o
+
+.PHONY : Restaurante.o
+
+# target to build an object file
+Restaurante.cpp.o:
+	$(MAKE) -f CMakeFiles/CozinhaMagica2.dir/build.make CMakeFiles/CozinhaMagica2.dir/Restaurante.cpp.o
+.PHONY : Restaurante.cpp.o
+
+Restaurante.i: Restaurante.cpp.i
+
+.PHONY : Restaurante.i
+
+# target to preprocess a source file
+Restaurante.cpp.i:
+	$(MAKE) -f CMakeFiles/CozinhaMagica2.dir/build.make CMakeFiles/CozinhaMagica2.dir/Restaurante.cpp.i
+.PHONY : Restaurante.cpp.i
+
+Restaurante.s: Restaurante.cpp.s
+
+.PHONY : Restaurante.s
+
+# target to generate assembly for a file
+Restaurante.cpp.s:
+	$(MAKE) -f CMakeFiles/CozinhaMagica2.dir/build.make CMakeFiles/CozinhaMagica2.dir/Restaurante.cpp.s
+.PHONY : Restaurante.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CozinhaMagica2"
+	@echo "... Restaurante.o"
+	@echo "... Restaurante.i"
+	@echo "... Restaurante.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
