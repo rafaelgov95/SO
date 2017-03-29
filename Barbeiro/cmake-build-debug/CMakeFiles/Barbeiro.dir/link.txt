@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Barbeiro.dir/main.cpp.o  -o Barbeiro 

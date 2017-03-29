@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica2/main.cpp
+iostream
+-
+semaphore.h
+-
+unistd.h
+-
+

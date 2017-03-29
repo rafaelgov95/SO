@@ -21,7 +21,6 @@ public:
     Restaurante();
 
     Cardapio cardapio;
-    bool CheckMesaDisponivel(int n);
     int BuscarCozinheiroDisponivel();
 
     void AdicionarCozinheiroDisponivel(int coz);

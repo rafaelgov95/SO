@@ -28,23 +28,25 @@ void Restaurante::AdicionarCozinheiroDisponivel(int coz) {
 }
 
 void Restaurante::EnviarPedido(Comida comida, int mesa) {
+   // cout <<"Entro aqui"<<endl;
     Pedido p;
     p.mesa = mesa;
     p.comida = comida;
     int index = BuscarCozinheiroDisponivel();
     if (index > -1) {
         p.cozinhero=index;
-        cozz[index].EnviarPedido(p);
+        cout <<index<<endl;
+        cozz[index].AvisaCozinheiro(&p);
     }else{
         cout <<"Não tem Cozinheiro Disponivel"<<endl;
     }
 
 }
 
-bool Restaurante::CheckMesaDisponivel(int n) {
-    if (mesa[n] == 0) {
-        mesa[n] = 1;
-        return true;
-    }
-    return false;
-}
+//bool Restaurante::CheckMesaDisponivel(int n) {
+//    if (mesa[n] == 0) {
+//        mesa[n] = 1;
+//        return true;
+//    }
+//    return false;
+//}

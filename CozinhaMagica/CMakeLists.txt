@@ -8,4 +8,4 @@ link_directories(/usr/include/)
 
 set(SOURCE_FILES main.cpp Cozinheiro.cpp Cozinheiro.h Cardapio.cpp Cardapio.h Restaurante.cpp Restaurante.h Comida.cpp Comida.h Pedido.cpp Pedido.h)
 add_executable(CozinhaMagica ${SOURCE_FILES})
-target_link_libraries(CozinhaMagica pthread)
+target_link_libraries(CozinhaMagica pthread -lm -lrt)

@@ -1,0 +1,3 @@
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Barbeiro/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Barbeiro/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Barbeiro/cmake-build-debug/CMakeFiles/Barbeiro.dir
