@@ -17,8 +17,6 @@ private:
 
 
 public:
-
-
     Cozinheiro *coz[3];
 
     Restaurante(int cozinheros,int mesas);

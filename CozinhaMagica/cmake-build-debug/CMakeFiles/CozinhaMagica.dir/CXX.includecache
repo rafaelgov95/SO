@@ -59,6 +59,8 @@ pthread.h
 -
 queue
 -
+fstream
+-
 Comida.h
 /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Comida.h
 Pedidos.h

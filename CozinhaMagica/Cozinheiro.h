@@ -7,6 +7,7 @@
 
 #include <pthread.h>
 #include <queue>
+#include <fstream>
 #include "Comida.h"
 #include "Pedidos.h"
 #include "stdio.h"
@@ -25,14 +26,17 @@ public:
 
     static void *AvisaCozinheiro();
 
+    static void printFile(Pedido pedido);
 
 private:
     pthread_t thread;
 
+
     static void *Semaforo(void *args);
 
     void Cozinhar(Pedido pedido);
-     int id ;
+
+    int id;
 
 };
 
