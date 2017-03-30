@@ -5,26 +5,21 @@
 
 
 int main() {
-    Restaurante rest(3,10);
-    rest.cardapio.addComida("Feijao", 5);
-    rest.cardapio.addComida("Arroz", 20);
+    Cardapio cardapio;
+    cardapio.addComida(1, 20, "Feijao");
+    cardapio.addComida(2, 4, "Arroz");
+    Restaurante rest(3, 10);
+    rest.cardapio = cardapio;
     bool flag = true;
     int escolha;
-    int mesa;
+    int mesa, pedido;
     while (flag) {
-        cin >> escolha;
-        if (escolha == 1) {
-            cout << "Prato Escolhido = Feijão" << endl;
-            cout << "Digite uma mesa" << endl;
-            cin >> mesa;
-            rest.EnviarPedido(rest.cardapio.buscarComida("Feijao"), mesa);
-        } else if (escolha == 2) {
-            cout << "Prato Escolhido = Arroz" << endl;
-            cout << "Digite uma mesa" << endl;
-            cin >> mesa;
-            rest.EnviarPedido(rest.cardapio.buscarComida("Arroz"), mesa);
-        }
+        cin >> pedido >> mesa;
+        Comida comi = rest.cardapio.buscarComida(pedido);
+        if(comi== nullptr){
 
+        }
+        rest.EnviarPedido(comi, mesa);
 
     }
 

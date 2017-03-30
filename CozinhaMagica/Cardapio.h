@@ -13,14 +13,13 @@ using namespace std;
 
 class Cardapio {
 public:
-    void addComida(string name, unsigned int tempo);
-
-    Comida buscarComida(string nomeDaComida);
+    void addComida(unsigned int id, unsigned int tempo, string name);
+    Comida buscarComida(unsigned int id);
 
 private:
 
     Comida Cardapio[100];
-    unsigned int size=0;
+    unsigned int size = 0;
 };
 
 

@@ -7,20 +7,22 @@
 
 using namespace std;
 
-void Cardapio::addComida(string nome, unsigned tempo) {
+void Cardapio::addComida(unsigned int id, unsigned int tempo, string nome) {
     Comida comida;
-    comida.nome = nome;
+    comida.id;
     comida.tempo = tempo;
+    comida.nome = nome;
     Cardapio[size] = comida;
     size++;
 }
 
-Comida Cardapio::buscarComida(string nomeDaComida) {
+Comida Cardapio::buscarComida( unsigned int id) {
     for (int i = 0; i <= size; ++i) {
-        if (Cardapio[i].nome.compare(nomeDaComida) == 0) {
+        if (Cardapio[i].id == id) {
             return Cardapio[i];
         }
     }
+    return nullptr;
 
 }
 

@@ -11,6 +11,7 @@ using namespace std;
 
 class Comida {
 public:
+    unsigned int id;
     string nome;
     unsigned int tempo;
 private:
