@@ -204,32 +204,32 @@ Cozinheiro.cpp.s:
 	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.s
 .PHONY : Cozinheiro.cpp.s
 
-Pedido.o: Pedido.cpp.o
+Pedidos.o: Pedidos.cpp.o
 
-.PHONY : Pedido.o
+.PHONY : Pedidos.o
 
 # target to build an object file
-Pedido.cpp.o:
-	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Pedido.cpp.o
-.PHONY : Pedido.cpp.o
+Pedidos.cpp.o:
+	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o
+.PHONY : Pedidos.cpp.o
 
-Pedido.i: Pedido.cpp.i
+Pedidos.i: Pedidos.cpp.i
 
-.PHONY : Pedido.i
+.PHONY : Pedidos.i
 
 # target to preprocess a source file
-Pedido.cpp.i:
-	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Pedido.cpp.i
-.PHONY : Pedido.cpp.i
+Pedidos.cpp.i:
+	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.i
+.PHONY : Pedidos.cpp.i
 
-Pedido.s: Pedido.cpp.s
+Pedidos.s: Pedidos.cpp.s
 
-.PHONY : Pedido.s
+.PHONY : Pedidos.s
 
 # target to generate assembly for a file
-Pedido.cpp.s:
-	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Pedido.cpp.s
-.PHONY : Pedido.cpp.s
+Pedidos.cpp.s:
+	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.s
+.PHONY : Pedidos.cpp.s
 
 Restaurante.o: Restaurante.cpp.o
 
@@ -303,9 +303,9 @@ help:
 	@echo "... Cozinheiro.o"
 	@echo "... Cozinheiro.i"
 	@echo "... Cozinheiro.s"
-	@echo "... Pedido.o"
-	@echo "... Pedido.i"
-	@echo "... Pedido.s"
+	@echo "... Pedidos.o"
+	@echo "... Pedidos.i"
+	@echo "... Pedidos.s"
 	@echo "... Restaurante.o"
 	@echo "... Restaurante.i"
 	@echo "... Restaurante.s"

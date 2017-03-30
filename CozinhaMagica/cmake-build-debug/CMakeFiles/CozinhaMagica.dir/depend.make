@@ -12,23 +12,24 @@ CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o: ../Cardapio.h
 CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o: ../Comida.h
 CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o: ../Cozinheiro.cpp
 CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o: ../Cozinheiro.h
-CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o: ../Pedido.h
+CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o: ../Pedidos.h
+CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o: ../Restaurante.h
 
-CMakeFiles/CozinhaMagica.dir/Pedido.cpp.o: ../Comida.h
-CMakeFiles/CozinhaMagica.dir/Pedido.cpp.o: ../Pedido.cpp
-CMakeFiles/CozinhaMagica.dir/Pedido.cpp.o: ../Pedido.h
+CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o: ../Comida.h
+CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o: ../Pedidos.cpp
+CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o: ../Pedidos.h
 
 CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o: ../Cardapio.h
 CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o: ../Comida.h
 CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o: ../Cozinheiro.h
-CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o: ../Pedido.h
+CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o: ../Pedidos.h
 CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o: ../Restaurante.cpp
 CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o: ../Restaurante.h
 
 CMakeFiles/CozinhaMagica.dir/main.cpp.o: ../Cardapio.h
 CMakeFiles/CozinhaMagica.dir/main.cpp.o: ../Comida.h
 CMakeFiles/CozinhaMagica.dir/main.cpp.o: ../Cozinheiro.h
-CMakeFiles/CozinhaMagica.dir/main.cpp.o: ../Pedido.h
+CMakeFiles/CozinhaMagica.dir/main.cpp.o: ../Pedidos.h
 CMakeFiles/CozinhaMagica.dir/main.cpp.o: ../Restaurante.h
 CMakeFiles/CozinhaMagica.dir/main.cpp.o: ../main.cpp
 

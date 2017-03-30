@@ -14,18 +14,25 @@
 
 class Restaurante {
 private:
-    Cozinheiro cozz[10];
-    queue<int> cozDisp;
-    int mesa[20];
+
+
 public:
+
+//    queue<int> Restaurante::pedidos;
+
+    Cozinheiro coz[3];
+
     Restaurante();
 
     Cardapio cardapio;
+
     int BuscarCozinheiroDisponivel();
 
     void AdicionarCozinheiroDisponivel(int coz);
 
-    void EnviarPedido(Comida nomeDaComida,int mesa);
+    static Pedido RestaurantePedidos();
+
+    void EnviarPedido(Comida nomeDaComida, int mesa);
 };
 
 

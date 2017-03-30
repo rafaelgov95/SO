@@ -4,7 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o"
   "CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o"
   "CMakeFiles/CozinhaMagica.dir/Comida.cpp.o"
-  "CMakeFiles/CozinhaMagica.dir/Pedido.cpp.o"
+  "CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o"
   "CozinhaMagica.pdb"
   "CozinhaMagica"
 )

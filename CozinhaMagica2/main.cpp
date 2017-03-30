@@ -13,7 +13,7 @@
 //sem_t sem_esperando_pedido[n_cozinheiros]; //  3 cleint_cadira  3 Aguardando pedido para fazer "Cozinheiro esta no WhatsApp"
 //
 //sem_t sem_escreve_visor, sem_le_visor;
-
+//
 //int visor;
 //
 //void *f_cozinheiro(void *v) {
@@ -54,8 +54,8 @@
 //    }
 //
 //}
-
-
+//
+//
 int main() {
     Restaurante rest;
     rest.IniciaAtendimento();
@@ -69,7 +69,7 @@ int main() {
 //        sem_init(&sem_esperando_pedido[i], 0, 0);
 //        sem_init(&sem_pedidos_atendido[i], 0, 0);
 //    }
-
+//
 //    for (i = 0; i < n_client; i++) {
 //        id_cl[i] = i;
 //        pthread_create(&thr_clientes[i], NULL, f_cliente, (void *) &id_cl[i]);
@@ -82,9 +82,10 @@ int main() {
 //
 //    for (i = 0; i < n_cozinheiros; i++) {
 //        pthread_join(thr_clientes[i], NULL);
-
-
+//
+//
+//    }
 //    printf("Fecho o Restaurante!;");
 }
-
-
+//
+//

@@ -13,7 +13,11 @@ sem_t sem_le_visor;
 
 int visor;
 
-void* Restaurante::f_cozinheiro(void *v) {
+Restaurante::Restaurante() {
+
+}
+
+void *Restaurante::f_cozinheiro(void *v) {
     int id = *(int *) v;
     std::cout << "id cozinheiro " << id << std::endl;
     while (1) {
@@ -27,22 +31,22 @@ void* Restaurante::f_cozinheiro(void *v) {
     return NULL;
 }
 
-void* Restaurante::f_cliente(void *v) {
+void *Restaurante::f_cliente(void *v) {
     int id = *(int *) v;
-    int minha_mesa;
+    int cozinheiro;
 
-    usleep(random() % 700 + 4);
+    sleep(2);
     if (sem_trywait(&sem_mesas) == 0) {
         printf("Cliente %d sentou.\n", id);
         sem_wait(&sem_le_visor);
-        minha_mesa = visor;
+        cozinheiro = visor;
         sem_post(&sem_escreve_visor);
-        sem_wait(&sem_pedidos_na_cozinha[minha_mesa]);
-        printf("Cliente %d esta sendo atendido pelo cozinheiro %d \n", id, minha_mesa);
-        sem_post(&sem_esperando_pedido[minha_mesa]);
+        sem_wait(&sem_pedidos_na_cozinha[cozinheiro]);
+        printf("Cliente %d esta sendo atendido pelo cozinheiro %d \n", id, cozinheiro);
+        sem_post(&sem_esperando_pedido[cozinheiro]);
         sem_post(&sem_mesas);
-        sem_wait(&sem_pedidos_atendido[minha_mesa]);
-        sem_post(&sem_pedidos_na_cozinha[minha_mesa]);
+        sem_wait(&sem_pedidos_atendido[cozinheiro]);
+        sem_post(&sem_pedidos_na_cozinha[cozinheiro]);
         printf("Cliente %d recebeu seu pedido.\n", id);
     } else {
         printf("Cliente %d nao tinha cadeiras para sentar \n", id);
@@ -60,7 +64,7 @@ void Restaurante::IniciaAtendimento() {
     sem_init(&sem_mesas, 0, 5);
     sem_init(&sem_escreve_visor, 0, 1);
     sem_init(&sem_le_visor, 0, 0);
-    for (i = 0; i < n_cozinheiros; i++) {
+    for (int i = 0; i < n_cozinheiros; ++i) {
         sem_init(&sem_pedidos_na_cozinha[i], 0, 1);
         sem_init(&sem_esperando_pedido[i], 0, 0);
         sem_init(&sem_pedidos_atendido[i], 0, 0);
@@ -78,10 +82,8 @@ void Restaurante::IniciaAtendimento() {
 
     for (i = 0; i < n_cozinheiros; i++) {
         pthread_join(thr_clientes[i], NULL);
-
-
-        printf("Fecho o Restaurante!;");
     }
+
 }
 
 

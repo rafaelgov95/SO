@@ -3,46 +3,49 @@
 //
 
 #include "Restaurante.h"
-#include "Pedido.h"
+#include "Pedidos.h"
+
+static Pedido mesa[10];
+static queue<int> pedidos;
 
 Restaurante::Restaurante() {
-    for (int i = 0; i < 10; ++i) {
-        AdicionarCozinheiroDisponivel(i);
+//    coz = new Cozinheiro[tamanho];
+    for (int i = 0; i < 2; ++i) {
+//        coz[i].Cozinheiro(i);
     }
-    for (int j = 0; j < 20; ++j) {
-        mesa[j] = 0;
-    }
+//    pedidos = new queue<int>;
+
 }
 
-int Restaurante::BuscarCozinheiroDisponivel() {
-    if (!cozDisp.empty()) {
-        int index = cozDisp.front();
-        cozDisp.pop();
-        return index;
-    }
-    return -1;
-}
+//int Restaurante::BuscarCozinheiroDisponivel() {
+//    if (!cozDisp.empty()) {
+//        int index = cozDisp.front();
+//        cozDisp.pop();
+//        return index;
+//    }
+//    return -1;
+//}
 
-void Restaurante::AdicionarCozinheiroDisponivel(int coz) {
-    cozDisp.push(coz);
-}
+//void Restaurante::AdicionarCozinheiroDisponivel(int coz) {
+//    cozDisp.push(coz);
+//}
 
-void Restaurante::EnviarPedido(Comida comida, int mesa) {
-   // cout <<"Entro aqui"<<endl;
+void Restaurante::EnviarPedido(Comida comida, int m) {
+    // cout <<"Entro aqui"<<endl;
     Pedido p;
-    p.mesa = mesa;
+    p.mesa = m;
     p.comida = comida;
-    int index = BuscarCozinheiroDisponivel();
-    if (index > -1) {
-        p.cozinhero=index;
-        cout <<index<<endl;
-        cozz[index].AvisaCozinheiro(&p);
-    }else{
-        cout <<"Não tem Cozinheiro Disponivel"<<endl;
-    }
+    mesa[m] = p;
+    pedidos.push(m);
+    Cozinheiro::AvisaCozinheiro();
 
 }
 
+Pedido Restaurante::RestaurantePedidos() {
+    int index = pedidos.front();
+    pedidos.pop();
+    return mesa[index];
+}
 //bool Restaurante::CheckMesaDisponivel(int n) {
 //    if (mesa[n] == 0) {
 //        mesa[n] = 1;

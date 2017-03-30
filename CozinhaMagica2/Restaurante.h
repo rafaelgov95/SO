@@ -17,7 +17,9 @@ class Restaurante {
 private:
 
 public:
+    pthread_t thr_clientes[n_client], thr_cozinheiros[n_cozinheiros];
 
+    Restaurante();
 
     static void *f_cozinheiro(void *v);
 

@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.cpp" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o"
   "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Comida.cpp" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/Comida.cpp.o"
   "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.cpp" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o"
-  "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Pedido.cpp" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/Pedido.cpp.o"
+  "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Pedidos.cpp" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o"
   "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Restaurante.cpp" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o"
   "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/main.cpp" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/main.cpp.o"
   )

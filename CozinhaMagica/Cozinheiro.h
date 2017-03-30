@@ -6,8 +6,9 @@
 #define COZINHAMAGICA_COZINHEIRO_H
 
 #include <pthread.h>
+#include <queue>
 #include "Comida.h"
-#include "Pedido.h"
+#include "Pedidos.h"
 #include "stdio.h"
 #include "unistd.h"
 #include "stdlib.h"
@@ -18,26 +19,20 @@ using namespace std;
 
 class Cozinheiro {
 public:
-    Cozinheiro();
+    Cozinheiro(int id);
 
     ~Cozinheiro();
 
-    void AguardarPedido();
+    static void *AvisaCozinheiro();
 
-    void CancelarPedido();
-
-    void Detach();
-
-    pthread_t GetId();
-
-    static void *AvisaCozinheiro(void *pthis);
 
 private:
+//    static int id;
     pthread_t thread;
 
-    static void *Cozinhar(void *pthis);
+    static void *Semaforo(void *args);
 
-    static void Cozinha();
+    void Cozinhar(Pedido pedido);
 
 
 };
