@@ -27,13 +27,12 @@ public:
 
 
 private:
-//    static int id;
     pthread_t thread;
 
     static void *Semaforo(void *args);
 
     void Cozinhar(Pedido pedido);
-
+     int id ;
 
 };
 

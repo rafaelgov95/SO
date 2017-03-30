@@ -18,11 +18,10 @@ private:
 
 public:
 
-//    queue<int> Restaurante::pedidos;
 
-    Cozinheiro coz[3];
+    Cozinheiro *coz[3];
 
-    Restaurante();
+    Restaurante(int cozinheros,int mesas);
 
     Cardapio cardapio;
 

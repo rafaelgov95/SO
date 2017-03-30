@@ -5,8 +5,8 @@
 
 
 int main() {
-    Restaurante rest;
-    rest.cardapio.addComida("Feijao", 10);
+    Restaurante rest(3,10);
+    rest.cardapio.addComida("Feijao", 5);
     rest.cardapio.addComida("Arroz", 20);
     bool flag = true;
     int escolha;

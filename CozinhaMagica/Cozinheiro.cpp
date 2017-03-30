@@ -19,13 +19,13 @@
 
 using namespace std;
 
-static int id;
+
 static sem_t sem_pedido;
 
 Cozinheiro::Cozinheiro(int i) {
-    int id = i;
+     id = i;
     sem_init(&sem_pedido, 0, 0);
-    if (pthread_create(&thread, NULL, Semaforo, NULL) != 0) {
+    if (pthread_create(&thread, NULL, Semaforo,  &id) != 0) {
         // erro
     }
 }
@@ -34,8 +34,8 @@ Cozinheiro::~Cozinheiro() {
 
 }
 
-void *Cozinheiro::Semaforo(void *args) {
-    id =+ 1;
+void *Cozinheiro::Semaforo(void *v) {
+    int id = *(int *) v;
     while (1) {
         sem_wait(&sem_pedido);
         Pedido p = Restaurante::RestaurantePedidos();
@@ -44,6 +44,7 @@ void *Cozinheiro::Semaforo(void *args) {
 
     }
 }
+
 
 void Cozinheiro::Cozinhar(Pedido pedido) {
     cout << "Vou cozinhar" << endl;
