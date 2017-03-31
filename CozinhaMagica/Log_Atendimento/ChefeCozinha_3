@@ -1,9 +1,14 @@
 ChefeCozinha_3
 
-31/03/2017 - 02:27:14:	Cozinhando o pedido da Mesa 1 ( 1 - Feijao )	Tempo 20 sec
-31/03/2017 - 02:27:34:	Entregando pedido da Mesa 1 ( 1 - Feijao )
-31/03/2017 - 02:27:34:	Cozinhando o pedido da Mesa 2 ( 1 - Feijao )	Tempo 20 sec
-31/03/2017 - 02:27:54:	Entregando pedido da Mesa 2 ( 1 - Feijao )
-31/03/2017 - 02:27:54:	Cozinhando o pedido da Mesa 1 ( 2 - Arroz )	Tempo 4 sec
-31/03/2017 - 02:27:58:	Entregando pedido da Mesa 1 ( 2 - Arroz )
-31/03/2017 - 02:27:58:	Cozinhando o pedido da Mesa 2 ( 1 - Feijao )	Tempo 20 sec
+31/03/2017 - 02:28:45:	Cozinhando pedido da Mesa 1 ( 1 - Feijao )	Tempo 20 sec
+31/03/2017 - 02:29:05:	Entregando pedido da Mesa 1 ( 1 - Feijao )
+31/03/2017 - 02:29:05:	Cozinhando pedido da Mesa 1 ( 2 - Arroz )	Tempo 4 sec
+31/03/2017 - 02:29:09:	Entregando pedido da Mesa 1 ( 2 - Arroz )
+31/03/2017 - 02:29:09:	Cozinhando pedido da Mesa 2 ( 2 - Arroz )	Tempo 4 sec
+31/03/2017 - 02:29:13:	Entregando pedido da Mesa 2 ( 2 - Arroz )
+31/03/2017 - 02:29:13:	Cozinhando pedido da Mesa 2 ( 2 - Arroz )	Tempo 4 sec
+31/03/2017 - 02:29:17:	Entregando pedido da Mesa 2 ( 2 - Arroz )
+31/03/2017 - 02:29:17:	Cozinhando pedido da Mesa 1 ( 1 - Feijao )	Tempo 20 sec
+31/03/2017 - 02:29:37:	Entregando pedido da Mesa 1 ( 1 - Feijao )
+31/03/2017 - 02:29:37:	Cozinhando pedido da Mesa 2 ( 2 - Arroz )	Tempo 4 sec
+31/03/2017 - 02:29:41:	Entregando pedido da Mesa 2 ( 2 - Arroz )
