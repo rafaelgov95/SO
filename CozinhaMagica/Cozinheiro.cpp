@@ -35,14 +35,14 @@ void *Cozinheiro::Semaforo(void *v) {
         sem_wait(&sem_pedido);
         Pedido p = Restaurante::RestauranteListaDePedidos();
         p.setCozinhero(id);
-        cout << bufferInicio(p)<<endl;
+        cout << bufferInicio(p) << endl;
         printFile(p, bufferInicio(p));
         sleep(p.getComida().getTempo());
         printFile(p, bufferFinal(p));
-        cout << bufferFinal(p)<<endl;
+        cout << bufferFinal(p) << endl;
         if (!FilaDePedidos.empty()) {
             FilaDePedidos.pop();
-         //obs so um por vem podem entra aqui porem posso increntar o sem pedido antes.
+            //obs so um por vem podem entra aqui porem posso increntar o sem pedido antes.
             sem_post(&sem_pedido);
         }
     }
@@ -74,8 +74,6 @@ void Cozinheiro::printFile(Pedido &p, string buffer) {
 
 string Cozinheiro::bufferInicio(Pedido pedido) {
     string buffer;
-    time_t t = time(0);
-
     buffer.append(currentDateTime()).append(":\t").append(
             "Cozinhando pedido da Mesa ").append(to_string(pedido.getMesa())).append(" ( ").append(
             to_string(pedido.getComida().getId())).append(" - ").append(

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <regex>
 #include "Cardapio.h"
 #include "Restaurante.h"
 
@@ -21,21 +22,30 @@ int main() {
     cardapio.addComida(5, 15, "Bolo");
     Restaurante rest(3, 10, cardapio);
     bool flag = true;
-    int mesa, pedido;
+    string pedido;
+    int mesa;
+    regex integer("(\\+|-)?[[:digit:]]+");
     while (flag) {
-        cin >> pedido >> mesa;
-        Comida *comi = rest.BuscarComida(pedido);
-        if (mesa) {
+        cin >> pedido;
+        if (regex_match(pedido, integer)) {
+            int intPedido = atoi(pedido.c_str());
+            cin >> mesa;
+            Comida *comi = rest.BuscarComida(intPedido);
             if (comi != nullptr) {
                 Pedido p(*comi, mesa);
                 rest.EnviarPedido(p);
+            }
+        } else {
+            if (pedido.compare("FIM") == 0) {
+                cout << "Todos Pratos Estão prontos !! Obrigado Pela Preferência :D" << endl;
+                flag = false;
+            } else {
+                cout <<"ENTRADA INVALIDA"<< endl;
             }
         }
 
 
     }
-
-    std::cout << "Todos Pratos Estão prontos !! Obrigado Pela Preferência :D" << std::endl;
     return 0;
 }
 
