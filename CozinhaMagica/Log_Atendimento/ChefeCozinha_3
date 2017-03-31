@@ -1,4 +1,14 @@
-../Log_Atendimento/ChefeCozinha_3
+ChefeCozinha_3
 
-Mar 31 2017 - 01:27:49:	Entregando pedido da Mesa (2	1 - Feijao)
-Mar 31 2017 - 01:27:49:	Entregando pedido da Mesa (1	1 - Feijao)
+Mar 31 2017 - 02:03:11:	Fazendo pedido da Mesa 2 ( 2 - Arroz )	Tempo 4 sec
+Mar 31 2017 - 02:03:11:	Entregando pedido da Mesa 2 ( 2 - Arroz )
+Mar 31 2017 - 02:03:11:	Fazendo pedido da Mesa 4 ( 1 - Feijao )	Tempo 20 sec
+Mar 31 2017 - 02:03:11:	Entregando pedido da Mesa 4 ( 1 - Feijao )
+2017-03-31.02:11:12Mar 31 2017 - 02:11:08:	Fazendo pedido da Mesa 1 ( 1 - Feijao )	Tempo 20 sec
+Mar 31 2017 - 02:11:08:	Entregando pedido da Mesa 1 ( 1 - Feijao )
+31-03-2017 - 02:12:44:	Fazendo pedido da Mesa 1 ( 1 - Feijao )	Tempo 20 sec
+31-03-2017 - 02:13:04:	Entregando pedido da Mesa 1 ( 1 - Feijao )
+31/03/2017 - 02:15:10:	Fazendo pedido da Mesa 1 ( 1 - Feijao )	Tempo 20 sec
+31/03/2017 - 02:15:30:	Entregando pedido da Mesa 1 ( 1 - Feijao )
+31/03/2017 - 02:15:30:	Fazendo pedido da Mesa 3 ( 3 - Camarao )	Tempo 40 sec
+31/03/2017 - 02:16:10:	Entregando pedido da Mesa 3 ( 3 - Camarao )

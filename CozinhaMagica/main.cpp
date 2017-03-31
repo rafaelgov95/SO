@@ -10,14 +10,10 @@ int main() {
 //    string p;
 //    cin >> c;
 //    for (int i = 0; i < c; ++i) {
-//
-//
 //        cin >> i >> t >> p;
 //        cardapio.addComida(i,t, p);
-//
 //    }
 
-    cardapio.addComida(1, 20, "Feijao");
     cardapio.addComida(1, 20, "Feijao");
     cardapio.addComida(2, 4, "Arroz");
     cardapio.addComida(3, 40, "Camarao");
@@ -27,7 +23,9 @@ int main() {
     bool flag = true;
     int mesa, pedido;
     while (flag) {
-        cin >> pedido >> mesa;
+        cin >> pedido ;
+//        if(!pedido.)
+        cin>> mesa;
         Comida *comi = rest.BuscarComida(pedido);
         if (mesa) {
             if (comi != nullptr) {

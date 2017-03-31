@@ -27,6 +27,7 @@ public:
     static void *AvisaCozinheiro();
 
 private:
+
     static void *Semaforo(void *args);
 
     static string bufferInicio(Pedido p);

@@ -30,22 +30,32 @@ Cozinheiro::~Cozinheiro() {
 void *Cozinheiro::Semaforo(void *v) {
     int id = +1 + *(int *) v;
     while (1) {
-        cout << "teste :D "<<endl;
         sem_wait(&sem_pedido);
         Pedido p = Restaurante::RestauranteListaDePedidos();
         p.setCozinhero(id);
         std::cout << "Encaminhado Pedido para Cozinha: " << p.getComida().getNome() << " Mesa: " << p.getMesa()
                   << " Cozinheiro: "
                   << p.getCozinhero() << std::endl;
-        printFile(p,bufferFinal(p));
+        printFile(p, bufferInicio(p));
         sleep(p.getComida().getTempo());
-        printFile(p,bufferFinal(p));
+        printFile(p, bufferFinal(p));
         cout << "Pedido: " << p.getComida().getNome() << " pronto!! " << " Mesa: " << to_string(p.getMesa()).c_str()
              << " - " << p.getComida().getNome().c_str() << " Feita Pelo Cozinheiro: " << p.getCozinhero()
              << endl;
     }
 }
 
+const std::string currentDateTime() {
+    time_t now = time(0);
+    struct tm tstruct;
+    char buf[80];
+    tstruct = *localtime(&now);
+    // Visit http://en.cppreference.com/w/cpp/chrono/c/strftime
+    // for more information about date/time format
+    strftime(buf, sizeof(buf), "%d/%m/%Y - %X", &tstruct);
+
+    return buf;
+}
 
 void Cozinheiro::printFile(Pedido &p, string buffer) {
     string fileName;
@@ -56,7 +66,7 @@ void Cozinheiro::printFile(Pedido &p, string buffer) {
         escreve << buffer.c_str() << endl;
     } else {
         escreve.open(fileName.c_str(), escreve.app | escreve.in);
-        escreve << fileName.append("\n") << endl;
+        escreve << "ChefeCozinha_" + to_string(p.getCozinhero()).append("\n") << endl;
         escreve << buffer.c_str() << endl;
     }
     escreve.close();
@@ -64,19 +74,22 @@ void Cozinheiro::printFile(Pedido &p, string buffer) {
 
 string Cozinheiro::bufferInicio(Pedido pedido) {
     string buffer;
-    buffer.append(__DATE__).append(" - ").append(__TIME__).append(":\t").append(
-            "Fazendo pedido da Mesa").append("(").append(to_string(pedido.getMesa())).append("\t").append(
+    time_t t = time(0);
+
+    buffer.append(currentDateTime()).append(":\t").append(
+            "Fazendo pedido da Mesa ").append(to_string(pedido.getMesa())).append(" ( ").append(
             to_string(pedido.getComida().getId())).append(" - ").append(
-            pedido.getComida().getNome());
+            pedido.getComida().getNome()).append(" )\t").append(
+            "Tempo " + to_string(pedido.getComida().getTempo()) + " sec");
     return buffer;
 }
 
 string Cozinheiro::bufferFinal(Pedido pedido) {
     string buffer;
-    buffer.append(__DATE__).append(" - ").append(__TIME__).append(":\t").append("Entregando pedido da Mesa (").append(
+    buffer.append(currentDateTime()).append(":\t").append("Entregando pedido da Mesa ").append(
             to_string(pedido.getMesa())).append(
-            "\t").append(to_string(pedido.getComida().getId())).append(" - ").append(
-            pedido.getComida().getNome()).append(")");
+            " ( ").append(to_string(pedido.getComida().getId())).append(" - ").append(
+            pedido.getComida().getNome()).append(" )");
     return buffer;
 }
 
