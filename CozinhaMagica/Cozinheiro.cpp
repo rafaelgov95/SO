@@ -77,7 +77,7 @@ string Cozinheiro::bufferInicio(Pedido pedido) {
     time_t t = time(0);
 
     buffer.append(currentDateTime()).append(":\t").append(
-            "Fazendo pedido da Mesa ").append(to_string(pedido.getMesa())).append(" ( ").append(
+            "Cozinhando o pedido da Mesa ").append(to_string(pedido.getMesa())).append(" ( ").append(
             to_string(pedido.getComida().getId())).append(" - ").append(
             pedido.getComida().getNome()).append(" )\t").append(
             "Tempo " + to_string(pedido.getComida().getTempo()) + " sec");
