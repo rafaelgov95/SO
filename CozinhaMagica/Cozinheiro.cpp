@@ -15,6 +15,7 @@ using namespace std;
 
 static sem_t sem_pedido;
 static ofstream escreve;
+static queue<int> FilaDePedidos;
 
 Cozinheiro::Cozinheiro(int i) {
     id = i;
@@ -29,19 +30,21 @@ Cozinheiro::~Cozinheiro() {
 
 void *Cozinheiro::Semaforo(void *v) {
     int id = +1 + *(int *) v;
+    string buffer;
     while (1) {
         sem_wait(&sem_pedido);
         Pedido p = Restaurante::RestauranteListaDePedidos();
         p.setCozinhero(id);
-        std::cout << "Encaminhado Pedido para Cozinha: " << p.getComida().getNome() << " Mesa: " << p.getMesa()
-                  << " Cozinheiro: "
-                  << p.getCozinhero() << std::endl;
+        cout << bufferInicio(p)<<endl;
         printFile(p, bufferInicio(p));
         sleep(p.getComida().getTempo());
         printFile(p, bufferFinal(p));
-        cout << "Pedido: " << p.getComida().getNome() << " pronto!! " << " Mesa: " << to_string(p.getMesa()).c_str()
-             << " - " << p.getComida().getNome().c_str() << " Feita Pelo Cozinheiro: " << p.getCozinhero()
-             << endl;
+        cout << bufferFinal(p)<<endl;
+        if (!FilaDePedidos.empty()) {
+            FilaDePedidos.pop();
+         //obs so um por vem podem entra aqui porem posso increntar o sem pedido antes.
+            sem_post(&sem_pedido);
+        }
     }
 }
 
@@ -50,10 +53,7 @@ const std::string currentDateTime() {
     struct tm tstruct;
     char buf[80];
     tstruct = *localtime(&now);
-    // Visit http://en.cppreference.com/w/cpp/chrono/c/strftime
-    // for more information about date/time format
     strftime(buf, sizeof(buf), "%d/%m/%Y - %X", &tstruct);
-
     return buf;
 }
 
@@ -94,5 +94,11 @@ string Cozinheiro::bufferFinal(Pedido pedido) {
 }
 
 void *Cozinheiro::AvisaCozinheiro() {
-    sem_post(&sem_pedido);
+    int index = *(int *) &sem_pedido;
+    if (index > 0) {
+        FilaDePedidos.push(1);
+    } else {
+        sem_post(&sem_pedido);
+    }
+
 }

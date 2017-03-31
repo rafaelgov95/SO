@@ -23,9 +23,7 @@ int main() {
     bool flag = true;
     int mesa, pedido;
     while (flag) {
-        cin >> pedido ;
-//        if(!pedido.)
-        cin>> mesa;
+        cin >> pedido >> mesa;
         Comida *comi = rest.BuscarComida(pedido);
         if (mesa) {
             if (comi != nullptr) {

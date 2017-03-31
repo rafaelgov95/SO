@@ -22,6 +22,7 @@ Comida *Restaurante::BuscarComida(int id) {
 
 void Restaurante::EnviarPedido(Pedido p) {
     pedidos.push(p);
+
     Cozinheiro::AvisaCozinheiro();
 
 }
