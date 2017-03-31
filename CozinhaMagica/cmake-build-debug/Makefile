@@ -150,33 +150,6 @@ Cardapio.cpp.s:
 	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.s
 .PHONY : Cardapio.cpp.s
 
-Comida.o: Comida.cpp.o
-
-.PHONY : Comida.o
-
-# target to build an object file
-Comida.cpp.o:
-	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Comida.cpp.o
-.PHONY : Comida.cpp.o
-
-Comida.i: Comida.cpp.i
-
-.PHONY : Comida.i
-
-# target to preprocess a source file
-Comida.cpp.i:
-	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Comida.cpp.i
-.PHONY : Comida.cpp.i
-
-Comida.s: Comida.cpp.s
-
-.PHONY : Comida.s
-
-# target to generate assembly for a file
-Comida.cpp.s:
-	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Comida.cpp.s
-.PHONY : Comida.cpp.s
-
 Cozinheiro.o: Cozinheiro.cpp.o
 
 .PHONY : Cozinheiro.o
@@ -203,33 +176,6 @@ Cozinheiro.s: Cozinheiro.cpp.s
 Cozinheiro.cpp.s:
 	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.s
 .PHONY : Cozinheiro.cpp.s
-
-Pedidos.o: Pedidos.cpp.o
-
-.PHONY : Pedidos.o
-
-# target to build an object file
-Pedidos.cpp.o:
-	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o
-.PHONY : Pedidos.cpp.o
-
-Pedidos.i: Pedidos.cpp.i
-
-.PHONY : Pedidos.i
-
-# target to preprocess a source file
-Pedidos.cpp.i:
-	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.i
-.PHONY : Pedidos.cpp.i
-
-Pedidos.s: Pedidos.cpp.s
-
-.PHONY : Pedidos.s
-
-# target to generate assembly for a file
-Pedidos.cpp.s:
-	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.s
-.PHONY : Pedidos.cpp.s
 
 Restaurante.o: Restaurante.cpp.o
 
@@ -297,15 +243,9 @@ help:
 	@echo "... Cardapio.o"
 	@echo "... Cardapio.i"
 	@echo "... Cardapio.s"
-	@echo "... Comida.o"
-	@echo "... Comida.i"
-	@echo "... Comida.s"
 	@echo "... Cozinheiro.o"
 	@echo "... Cozinheiro.i"
 	@echo "... Cozinheiro.s"
-	@echo "... Pedidos.o"
-	@echo "... Pedidos.i"
-	@echo "... Pedidos.s"
 	@echo "... Restaurante.o"
 	@echo "... Restaurante.i"
 	@echo "... Restaurante.s"

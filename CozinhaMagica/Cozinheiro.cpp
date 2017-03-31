@@ -8,13 +8,6 @@
 #include <semaphore.h>
 #include "Cozinheiro.h"
 #include "Cardapio.h"
-#include "Pedidos.h"
-
-#include "stdio.h"
-#include "unistd.h"
-#include "stdlib.h"
-#include "pthread.h"
-#include "semaphore.h"
 #include "Restaurante.h"
 
 using namespace std;
@@ -35,38 +28,56 @@ Cozinheiro::~Cozinheiro() {
 }
 
 void *Cozinheiro::Semaforo(void *v) {
-    int id = *(int *) v;
+    int id = +1 + *(int *) v;
     while (1) {
+        cout << "teste :D "<<endl;
         sem_wait(&sem_pedido);
-        Pedido p = Restaurante::RestaurantePedidos();
-        std::cout << "Pedido: " << p.comida.nome << "Mesa: " << p.mesa << " Cozinheiro: " << id << std::endl;
-        sleep(p.comida.tempo);
-        p.cozinhero = id;
-        printFile(p);
-        cout << "Pedido Entregue" << " Mesa: " << p.mesa << " Feita Pelo Cozinheiro: " << id << endl;
+        Pedido p = Restaurante::RestauranteListaDePedidos();
+        p.setCozinhero(id);
+        std::cout << "Encaminhado Pedido para Cozinha: " << p.getComida().getNome() << " Mesa: " << p.getMesa()
+                  << " Cozinheiro: "
+                  << p.getCozinhero() << std::endl;
+        printFile(p,bufferFinal(p));
+        sleep(p.getComida().getTempo());
+        printFile(p,bufferFinal(p));
+        cout << "Pedido: " << p.getComida().getNome() << " pronto!! " << " Mesa: " << to_string(p.getMesa()).c_str()
+             << " - " << p.getComida().getNome().c_str() << " Feita Pelo Cozinheiro: " << p.getCozinhero()
+             << endl;
     }
 }
 
-void Cozinheiro::printFile(Pedido pedido) {
-    string buffer;
-    buffer.append("Mesa ").append(to_string(pedido.mesa)).append(":").append("\n").append("     - ").append(pedido.comida.nome);
-    string fileName = "ChefeCozinha_" + to_string(pedido.cozinhero + 1);
+
+void Cozinheiro::printFile(Pedido &p, string buffer) {
+    string fileName;
+    fileName.append("../Log_Atendimento/ChefeCozinha_").append(to_string(p.getCozinhero()));
+
     if (access(fileName.c_str(), F_OK) != -1) {
         escreve.open(fileName.c_str(), escreve.app | escreve.in);
         escreve << buffer.c_str() << endl;
     } else {
         escreve.open(fileName.c_str(), escreve.app | escreve.in);
-        escreve << "ChefeCozinha_" + to_string(pedido.cozinhero + 1) << endl;
+        escreve << fileName.append("\n") << endl;
         escreve << buffer.c_str() << endl;
     }
     escreve.close();
 }
 
-void Cozinheiro::Cozinhar(Pedido pedido) {
-    cout << "Vou cozinhar" << endl;
-    sleep(3);
-    cout << "ENVIANDO E DORMI DEPOIS" << endl;
+string Cozinheiro::bufferInicio(Pedido pedido) {
+    string buffer;
+    buffer.append(__DATE__).append(" - ").append(__TIME__).append(":\t").append(
+            "Fazendo pedido da Mesa").append("(").append(to_string(pedido.getMesa())).append("\t").append(
+            to_string(pedido.getComida().getId())).append(" - ").append(
+            pedido.getComida().getNome());
+    return buffer;
+}
 
+string Cozinheiro::bufferFinal(Pedido pedido) {
+    string buffer;
+    buffer.append(__DATE__).append(" - ").append(__TIME__).append(":\t").append("Entregando pedido da Mesa (").append(
+            to_string(pedido.getMesa())).append(
+            "\t").append(to_string(pedido.getComida().getId())).append(" - ").append(
+            pedido.getComida().getNome()).append(")");
+    return buffer;
 }
 
 void *Cozinheiro::AvisaCozinheiro() {

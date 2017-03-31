@@ -10,13 +10,28 @@
 using namespace std;
 
 class Comida {
-public:
+private:
     unsigned int id;
     string nome;
     unsigned int tempo;
-private:
+
+public:
+
+    Comida(const unsigned int id, const unsigned int tempo, const string &nome)
+            : id(id), tempo(tempo), nome(nome) {
+    };
+
+    unsigned int getId() const {
+        return id;
+    }
+
+    const string &getNome() const {
+        return nome;
+    }
+
+    unsigned int getTempo() const {
+        return tempo;
+    }
 
 };
-
-
 #endif //COZINHAMAGICA_COMIDA_H

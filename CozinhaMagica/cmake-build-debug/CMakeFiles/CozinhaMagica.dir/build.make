@@ -153,62 +153,12 @@ CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o.provides: CMakeFiles/CozinhaMagic
 CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o.provides.build: CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o
 
 
-CMakeFiles/CozinhaMagica.dir/Comida.cpp.o: CMakeFiles/CozinhaMagica.dir/flags.make
-CMakeFiles/CozinhaMagica.dir/Comida.cpp.o: ../Comida.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CozinhaMagica.dir/Comida.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CozinhaMagica.dir/Comida.cpp.o -c /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Comida.cpp
-
-CMakeFiles/CozinhaMagica.dir/Comida.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CozinhaMagica.dir/Comida.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Comida.cpp > CMakeFiles/CozinhaMagica.dir/Comida.cpp.i
-
-CMakeFiles/CozinhaMagica.dir/Comida.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CozinhaMagica.dir/Comida.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Comida.cpp -o CMakeFiles/CozinhaMagica.dir/Comida.cpp.s
-
-CMakeFiles/CozinhaMagica.dir/Comida.cpp.o.requires:
-
-.PHONY : CMakeFiles/CozinhaMagica.dir/Comida.cpp.o.requires
-
-CMakeFiles/CozinhaMagica.dir/Comida.cpp.o.provides: CMakeFiles/CozinhaMagica.dir/Comida.cpp.o.requires
-	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Comida.cpp.o.provides.build
-.PHONY : CMakeFiles/CozinhaMagica.dir/Comida.cpp.o.provides
-
-CMakeFiles/CozinhaMagica.dir/Comida.cpp.o.provides.build: CMakeFiles/CozinhaMagica.dir/Comida.cpp.o
-
-
-CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o: CMakeFiles/CozinhaMagica.dir/flags.make
-CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o: ../Pedidos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o -c /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Pedidos.cpp
-
-CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Pedidos.cpp > CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.i
-
-CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Pedidos.cpp -o CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.s
-
-CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o.requires:
-
-.PHONY : CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o.requires
-
-CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o.provides: CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o.requires
-	$(MAKE) -f CMakeFiles/CozinhaMagica.dir/build.make CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o.provides.build
-.PHONY : CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o.provides
-
-CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o.provides.build: CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o
-
-
 # Object files for target CozinhaMagica
 CozinhaMagica_OBJECTS = \
 "CMakeFiles/CozinhaMagica.dir/main.cpp.o" \
 "CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o" \
 "CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o" \
-"CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o" \
-"CMakeFiles/CozinhaMagica.dir/Comida.cpp.o" \
-"CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o"
+"CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o"
 
 # External object files for target CozinhaMagica
 CozinhaMagica_EXTERNAL_OBJECTS =
@@ -217,11 +167,9 @@ CozinhaMagica: CMakeFiles/CozinhaMagica.dir/main.cpp.o
 CozinhaMagica: CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o
 CozinhaMagica: CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o
 CozinhaMagica: CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o
-CozinhaMagica: CMakeFiles/CozinhaMagica.dir/Comida.cpp.o
-CozinhaMagica: CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o
 CozinhaMagica: CMakeFiles/CozinhaMagica.dir/build.make
 CozinhaMagica: CMakeFiles/CozinhaMagica.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CozinhaMagica"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CozinhaMagica"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CozinhaMagica.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -233,8 +181,6 @@ CMakeFiles/CozinhaMagica.dir/requires: CMakeFiles/CozinhaMagica.dir/main.cpp.o.r
 CMakeFiles/CozinhaMagica.dir/requires: CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o.requires
 CMakeFiles/CozinhaMagica.dir/requires: CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o.requires
 CMakeFiles/CozinhaMagica.dir/requires: CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o.requires
-CMakeFiles/CozinhaMagica.dir/requires: CMakeFiles/CozinhaMagica.dir/Comida.cpp.o.requires
-CMakeFiles/CozinhaMagica.dir/requires: CMakeFiles/CozinhaMagica.dir/Pedidos.cpp.o.requires
 
 .PHONY : CMakeFiles/CozinhaMagica.dir/requires
 

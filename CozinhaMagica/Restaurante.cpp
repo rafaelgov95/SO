@@ -5,31 +5,30 @@
 #include "Restaurante.h"
 
 
-static Pedido mesa[10];
-static queue<int> pedidos;
+static queue<Pedido> pedidos;
 
-Restaurante::Restaurante(int cozinheiros, int mesas) {
-
+Restaurante::Restaurante(int cozinheiros, int mesas, Cardapio &cardapio) {
+    this->cardapio = cardapio;
+    this->coz = new Cozinheiro *[cozinheiros];
     for (int i = 0; i < cozinheiros; i++) {
-        coz[i] = new Cozinheiro(i);
+        this->coz[i] = new Cozinheiro(i);
     }
-
-
 }
 
-void Restaurante::EnviarPedido(Comida comida, int m) {
-    Pedido p;
-    p.mesa = m;
-    p.comida = comida;
-    mesa[m] = p;
-    pedidos.push(m);
+Comida *Restaurante::BuscarComida(int id) {
+    return cardapio.buscarComida(id);
+}
+
+
+void Restaurante::EnviarPedido(Pedido p) {
+    pedidos.push(p);
     Cozinheiro::AvisaCozinheiro();
 
 }
 
-Pedido Restaurante::RestaurantePedidos() {
-    int index = pedidos.front();
+Pedido Restaurante::RestauranteListaDePedidos() {
+    Pedido p = pedidos.front();
     pedidos.pop();
-    return mesa[index];
+    return p;
 }
 

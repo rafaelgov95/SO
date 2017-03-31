@@ -7,19 +7,18 @@
 
 #include <string>
 #include <queue>
+#include <list>
 #include "Comida.h"
 
 using namespace std;
 
 class Cardapio {
 public:
-    void addComida(unsigned int id, unsigned int tempo, string name);
-    Comida buscarComida(unsigned int id);
+    void addComida(const unsigned int id, const unsigned int tempo, const string &name);
+    Comida *buscarComida(const unsigned int id);
 
 private:
-
-    Comida Cardapio[100];
-    unsigned int size = 0;
+    vector<Comida> listC;
 };
 
 
