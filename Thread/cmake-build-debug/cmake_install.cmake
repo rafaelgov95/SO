@@ -1,4 +1,4 @@
-# Install script for directory: /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread
+# Install script for directory: /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

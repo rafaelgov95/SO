@@ -27,17 +27,19 @@ public:
     static void *AvisaCozinheiro();
 
 private:
+    int id;
+    pthread_t thread;
 
     static void *Semaforo(void *args);
 
-    static string bufferInicio(Pedido p);
+    static void Trabalhar(const Pedido &p);
 
-    static string bufferFinal(Pedido p);
+    static string bufferInicio(const Pedido &p);
 
-    static void printFile(Pedido &p,string buff);
+    static string bufferFinal(const Pedido &p);
+    static void printFile(const Pedido &p, const string &buff);
 
-    int id;
-    pthread_t thread;
+
 };
 
 #endif //COZINHAMAGICA_COZINHEIRO_H

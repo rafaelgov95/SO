@@ -15,7 +15,11 @@ Restaurante::Restaurante(int cozinheiros, int mesas, Cardapio &cardapio) {
     }
 }
 
-Comida *Restaurante::BuscarComida(int id) {
+Restaurante::~Restaurante() {
+    delete &coz;
+}
+
+Comida *Restaurante::BuscarComida(const unsigned int id) {
     return cardapio.buscarComida(id);
 }
 
@@ -30,6 +34,7 @@ void Restaurante::EnviarPedido(Pedido p) {
 Pedido Restaurante::RestauranteListaDePedidos() {
     Pedido p = pedidos.front();
     pedidos.pop();
+
     return p;
 }
 

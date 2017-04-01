@@ -20,7 +20,8 @@ public:
     Comida(const unsigned int id, const unsigned int tempo, const string &nome)
             : id(id), tempo(tempo), nome(nome) {
     };
-
+    Comida(const Comida& orig) : id(orig.id),tempo(orig.tempo),nome(orig.nome) {
+    }
     unsigned int getId() const {
         return id;
     }

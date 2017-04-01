@@ -43,10 +43,10 @@ RM = /opt/clion-2016.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread
+CMAKE_SOURCE_DIR = /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread/cmake-build-debug
+CMAKE_BINARY_DIR = /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Thread.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Thread.dir/flags.make
 
 CMakeFiles/Thread.dir/main.cpp.o: CMakeFiles/Thread.dir/flags.make
 CMakeFiles/Thread.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Thread.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Thread.dir/main.cpp.o -c /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Thread.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Thread.dir/main.cpp.o -c /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread/main.cpp
 
 CMakeFiles/Thread.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thread.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread/main.cpp > CMakeFiles/Thread.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread/main.cpp > CMakeFiles/Thread.dir/main.cpp.i
 
 CMakeFiles/Thread.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thread.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread/main.cpp -o CMakeFiles/Thread.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread/main.cpp -o CMakeFiles/Thread.dir/main.cpp.s
 
 CMakeFiles/Thread.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Thread.dir/main.cpp.o.provides.build: CMakeFiles/Thread.dir/main.cpp.
 
 CMakeFiles/Thread.dir/pedido.cpp.o: CMakeFiles/Thread.dir/flags.make
 CMakeFiles/Thread.dir/pedido.cpp.o: ../pedido.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Thread.dir/pedido.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Thread.dir/pedido.cpp.o -c /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread/pedido.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Thread.dir/pedido.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Thread.dir/pedido.cpp.o -c /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread/pedido.cpp
 
 CMakeFiles/Thread.dir/pedido.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thread.dir/pedido.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread/pedido.cpp > CMakeFiles/Thread.dir/pedido.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread/pedido.cpp > CMakeFiles/Thread.dir/pedido.cpp.i
 
 CMakeFiles/Thread.dir/pedido.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thread.dir/pedido.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread/pedido.cpp -o CMakeFiles/Thread.dir/pedido.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread/pedido.cpp -o CMakeFiles/Thread.dir/pedido.cpp.s
 
 CMakeFiles/Thread.dir/pedido.cpp.o.requires:
 
@@ -117,7 +117,7 @@ Thread: CMakeFiles/Thread.dir/main.cpp.o
 Thread: CMakeFiles/Thread.dir/pedido.cpp.o
 Thread: CMakeFiles/Thread.dir/build.make
 Thread: CMakeFiles/Thread.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Thread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Thread"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Thread.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/Thread.dir/clean:
 .PHONY : CMakeFiles/Thread.dir/clean
 
 CMakeFiles/Thread.dir/depend:
-	cd /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread/cmake-build-debug /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread/cmake-build-debug /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SOO/Thread/cmake-build-debug/CMakeFiles/Thread.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread/cmake-build-debug /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread/cmake-build-debug /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Thread/cmake-build-debug/CMakeFiles/Thread.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Thread.dir/depend
 

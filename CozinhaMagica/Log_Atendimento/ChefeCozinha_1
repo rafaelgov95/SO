@@ -1,11 +1,55 @@
 ChefeCozinha_1
 
-31/03/2017 - 11:14:31:	Cozinhando pedido da Mesa 1 ( 1 - Feijao )	Tempo 20 sec
-31/03/2017 - 11:14:51:	Entregando pedido da Mesa 1 ( 1 - Feijao )
-31/03/2017 - 11:43:27:	Cozinhando pedido da Mesa 0 ( 3 - Camarao )	Tempo 40 sec
-31/03/2017 - 11:44:07:	Entregando pedido da Mesa 0 ( 3 - Camarao )
-31/03/2017 - 11:44:07:	Cozinhando pedido da Mesa 0 ( 3 - Camarao )	Tempo 40 sec
-31/03/2017 - 11:44:50:	Cozinhando pedido da Mesa 1 ( 1 - Feijao )	Tempo 20 sec
-31/03/2017 - 11:45:10:	Entregando pedido da Mesa 1 ( 1 - Feijao )
-31/03/2017 - 11:45:10:	Cozinhando pedido da Mesa 3 ( 2 - Arroz )	Tempo 4 sec
-31/03/2017 - 11:45:14:	Entregando pedido da Mesa 3 ( 2 - Arroz )
+01/04/2017 - 00:10:54:	Preparando pedido da Mesa 2 ( 2  -  hot dog )	Tempo 3 sec
+01/04/2017 - 00:10:57:	Entregando pedido da Mesa 2 ( 2  -  hot dog )
+01/04/2017 - 00:10:57:	Preparando pedido da Mesa 3 ( 5  -  x-egg )	Tempo 6 sec
+01/04/2017 - 00:11:03:	Entregando pedido da Mesa 3 ( 5  -  x-egg )
+01/04/2017 - 00:11:03:	Preparando pedido da Mesa 1 ( 1  -  misto quente )	Tempo 3 sec
+01/04/2017 - 00:11:06:	Entregando pedido da Mesa 1 ( 1  -  misto quente )
+01/04/2017 - 00:11:06:	Preparando pedido da Mesa 2 ( 3  -  x-salada )	Tempo 5 sec
+01/04/2017 - 00:11:11:	Entregando pedido da Mesa 2 ( 3  -  x-salada )
+01/04/2017 - 00:11:11:	Preparando pedido da Mesa 3 ( 6  -  x-bacon )	Tempo 7 sec
+01/04/2017 - 00:11:18:	Entregando pedido da Mesa 3 ( 6  -  x-bacon )
+01/04/2017 - 00:11:18:	Preparando pedido da Mesa 3 ( 2  -  hot dog )	Tempo 3 sec
+01/04/2017 - 00:11:21:	Entregando pedido da Mesa 3 ( 2  -  hot dog )
+01/04/2017 - 00:11:21:	Preparando pedido da Mesa 6 ( 5  -  x-egg )	Tempo 6 sec
+01/04/2017 - 00:11:27:	Entregando pedido da Mesa 6 ( 5  -  x-egg )
+01/04/2017 - 00:11:27:	Preparando pedido da Mesa 5 ( 4  -  x-burguer )	Tempo 5 sec
+01/04/2017 - 00:11:32:	Entregando pedido da Mesa 5 ( 4  -  x-burguer )
+01/04/2017 - 00:11:32:	Preparando pedido da Mesa 6 ( 2  -  hot dog )	Tempo 3 sec
+01/04/2017 - 00:11:35:	Entregando pedido da Mesa 6 ( 2  -  hot dog )
+01/04/2017 - 00:11:35:	Preparando pedido da Mesa 5 ( 5  -  x-egg )	Tempo 6 sec
+01/04/2017 - 00:11:41:	Entregando pedido da Mesa 5 ( 5  -  x-egg )
+01/04/2017 - 00:11:41:	Preparando pedido da Mesa 3 ( 4  -  x-burguer )	Tempo 5 sec
+01/04/2017 - 00:11:46:	Entregando pedido da Mesa 3 ( 4  -  x-burguer )
+01/04/2017 - 00:11:46:	Preparando pedido da Mesa 4 ( 7  -  x-calabresa )	Tempo 7 sec
+01/04/2017 - 00:11:53:	Entregando pedido da Mesa 4 ( 7  -  x-calabresa )
+01/04/2017 - 00:11:53:	Preparando pedido da Mesa 2 ( 5  -  x-egg )	Tempo 6 sec
+01/04/2017 - 00:11:59:	Entregando pedido da Mesa 2 ( 5  -  x-egg )
+01/04/2017 - 00:11:59:	Preparando pedido da Mesa 3 ( 7  -  x-calabresa )	Tempo 7 sec
+01/04/2017 - 00:12:06:	Entregando pedido da Mesa 3 ( 7  -  x-calabresa )
+01/04/2017 - 00:12:06:	Preparando pedido da Mesa 6 ( 3  -  x-salada )	Tempo 5 sec
+01/04/2017 - 00:12:11:	Entregando pedido da Mesa 6 ( 3  -  x-salada )
+01/04/2017 - 00:12:11:	Preparando pedido da Mesa 2 ( 6  -  x-bacon )	Tempo 7 sec
+01/04/2017 - 00:12:18:	Entregando pedido da Mesa 2 ( 6  -  x-bacon )
+01/04/2017 - 00:17:30:	Preparando pedido da Mesa 2 ( 2  -  hot dog )	Tempo 3 sec
+01/04/2017 - 00:17:33:	Entregando pedido da Mesa 2 ( 2  -  hot dog )
+01/04/2017 - 00:17:33:	Preparando pedido da Mesa 3 ( 5  -  x-egg )	Tempo 6 sec
+01/04/2017 - 00:17:39:	Entregando pedido da Mesa 3 ( 5  -  x-egg )
+01/04/2017 - 00:17:39:	Preparando pedido da Mesa 1 ( 1  -  misto quente )	Tempo 3 sec
+01/04/2017 - 00:17:42:	Entregando pedido da Mesa 1 ( 1  -  misto quente )
+01/04/2017 - 00:17:42:	Preparando pedido da Mesa 2 ( 3  -  x-salada )	Tempo 5 sec
+01/04/2017 - 00:17:47:	Entregando pedido da Mesa 2 ( 3  -  x-salada )
+01/04/2017 - 00:17:47:	Preparando pedido da Mesa 3 ( 6  -  x-bacon )	Tempo 7 sec
+01/04/2017 - 00:17:54:	Entregando pedido da Mesa 3 ( 6  -  x-bacon )
+01/04/2017 - 00:17:54:	Preparando pedido da Mesa 3 ( 2  -  hot dog )	Tempo 3 sec
+01/04/2017 - 00:17:57:	Entregando pedido da Mesa 3 ( 2  -  hot dog )
+01/04/2017 - 00:17:57:	Preparando pedido da Mesa 1 ( 10  -  suco-natural (Jarra 1l) )	Tempo 8 sec
+01/04/2017 - 00:18:05:	Entregando pedido da Mesa 1 ( 10  -  suco-natural (Jarra 1l) )
+01/04/2017 - 00:18:05:	Preparando pedido da Mesa 1 ( 8  -  x-tudo )	Tempo 10 sec
+01/04/2017 - 00:18:15:	Entregando pedido da Mesa 1 ( 8  -  x-tudo )
+01/04/2017 - 00:18:15:	Preparando pedido da Mesa 7 ( 4  -  x-burguer )	Tempo 5 sec
+01/04/2017 - 00:18:20:	Entregando pedido da Mesa 7 ( 4  -  x-burguer )
+01/04/2017 - 00:18:20:	Preparando pedido da Mesa 7 ( 7  -  x-calabresa )	Tempo 7 sec
+01/04/2017 - 00:18:27:	Entregando pedido da Mesa 7 ( 7  -  x-calabresa )
+01/04/2017 - 00:18:27:	Preparando pedido da Mesa 4 ( 6  -  x-bacon )	Tempo 7 sec

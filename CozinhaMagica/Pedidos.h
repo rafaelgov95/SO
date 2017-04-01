@@ -15,35 +15,24 @@ private:
 public:
     Pedido(const Comida &comida, const unsigned int mesa) : comida(comida), mesa(mesa) {
     };
+    Pedido(const Pedido& outro):comida(outro.comida),mesa(outro.mesa){ //Construtor de cópia - copia recurso
 
-    Pedido getPedido() {
-        return *this;
     }
-
     const Comida &getComida() const {
         return comida;
-    }
-
-    void setComida(const Comida &comida) {
-        this->comida = comida;
     }
 
     int getCozinhero() const {
         return cozinhero;
     }
 
-    void setCozinhero(int cozinhero) {
-        this->cozinhero = cozinhero;
-    }
-
     int getMesa() const {
         return mesa;
     }
 
-    void setMesa(int mesa) {
-        this->mesa = mesa;
+    void setCozinhero(int cozinhero) {
+        this->cozinhero = cozinhero;
     }
-
 };
 
 

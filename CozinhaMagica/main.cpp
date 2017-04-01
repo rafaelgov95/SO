@@ -5,21 +5,17 @@
 
 
 int main() {
+
     Cardapio cardapio;
+    int c, i, t;
+    string p;
+    cin >> c;
+    for (int j = 0; j < c; j++) {
+        cin >> i >> t;
+        getline(cin, p);
+        cardapio.addComida(i, t, p);
 
-//    int c, i, t;
-//    string p;
-//    cin >> c;
-//    for (int i = 0; i < c; ++i) {
-//        cin >> i >> t >> p;
-//        cardapio.addComida(i,t, p);
-//    }
-
-    cardapio.addComida(1, 20, "Feijao");
-    cardapio.addComida(2, 4, "Arroz");
-    cardapio.addComida(3, 40, "Camarao");
-    cardapio.addComida(4, 10, "Churrasco");
-    cardapio.addComida(5, 15, "Bolo");
+    }
     Restaurante rest(3, 10, cardapio);
     bool flag = true;
     string pedido;
@@ -34,13 +30,16 @@ int main() {
             if (comi != nullptr) {
                 Pedido p(*comi, mesa);
                 rest.EnviarPedido(p);
+            } else {
+                cout << "Essa opção não esta em nosso cardapio" << endl;
             }
         } else {
             if (pedido.compare("FIM") == 0) {
                 cout << "Todos Pratos Estão prontos !! Obrigado Pela Preferência :D" << endl;
+                delete &rest;
                 flag = false;
             } else {
-                cout <<"ENTRADA INVALIDA"<< endl;
+                cout << "ENTRADA INVALIDA" << endl;
             }
         }
 
