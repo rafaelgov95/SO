@@ -22,11 +22,9 @@ int main() {
     int mesa;
     regex integer("(\\+|-)?[[:digit:]]+");
     while (flag) {
-        cin >> pedido;
+        cin >> pedido >> mesa;
         if (regex_match(pedido, integer)) {
-            int intPedido = atoi(pedido.c_str());
-            cin >> mesa;
-            Comida *comi = rest.BuscarComida(intPedido);
+            Comida *comi = rest.BuscarComida((unsigned int)atoi(pedido.c_str()));
             if (comi != nullptr) {
                 Pedido p(*comi, mesa);
                 rest.EnviarPedido(p);
@@ -35,7 +33,7 @@ int main() {
             }
         } else {
             if (pedido.compare("FIM") == 0) {
-                cout << "Todos Pratos Estão prontos !! Obrigado Pela Preferência :D" << endl;
+                cout << "O espediente foi encerado por hoje !!. Obrigado Pela Preferência ! " << endl;
                 delete &rest;
                 flag = false;
             } else {

@@ -112,17 +112,17 @@ void Cozinheiro::printFile(const Pedido &p, const string &buffer) {
 
 string Cozinheiro::bufferInicio(const Pedido &pedido) {
     string buffer;
-    buffer.append(currentDateTime()).append(":\t").append(
-            "Preparando pedido da Mesa ").append(to_string(pedido.getMesa())).append(" ( ").append(
+    buffer.append(currentDateTime()).append(":\t").append("Cozinheiro ").append(to_string(pedido.getCozinhero())).append(
+            " Preparando pedido da Mesa ").append(to_string(pedido.getMesa())).append(" ( ").append(
             to_string(pedido.getComida().getId())).append("  - ").append(
             pedido.getComida().getNome()).append(" )\t").append(
-            "Tempo " + to_string(pedido.getComida().getTempo()) + " sec");
+            "Tempo " + to_string(pedido.getComida().getTempo()) + " segundos");
     return buffer;
 }
 
 string Cozinheiro::bufferFinal(const Pedido &pedido) {
     string buffer;
-    buffer.append(currentDateTime()).append(":\t").append("Entregando pedido da Mesa ").append(
+    buffer.append(currentDateTime()).append(":\t").append("Cozinheiro ").append(to_string(pedido.getCozinhero())).append(" Entregando pedido da Mesa ").append(
             to_string(pedido.getMesa())).append(
             " ( ").append(to_string(pedido.getComida().getId())).append("  - ").append(
             pedido.getComida().getNome()).append(" )");
