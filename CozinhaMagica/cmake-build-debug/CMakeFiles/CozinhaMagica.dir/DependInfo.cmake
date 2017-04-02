@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.cpp" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o"
-  "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.cpp" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o"
-  "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Restaurante.cpp" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o"
-  "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/main.cpp" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/main.cpp.o"
+  "/home/rafael/SO/CozinhaMagica/Cardapio.cpp" "/home/rafael/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o"
+  "/home/rafael/SO/CozinhaMagica/Cozinheiro.cpp" "/home/rafael/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o"
+  "/home/rafael/SO/CozinhaMagica/Restaurante.cpp" "/home/rafael/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o"
+  "/home/rafael/SO/CozinhaMagica/main.cpp" "/home/rafael/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

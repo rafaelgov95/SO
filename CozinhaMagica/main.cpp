@@ -18,31 +18,29 @@ int main() {
     cin >> qt_cozinheiro >> qt_mesa;
     Restaurante rest(qt_cozinheiro, qt_mesa, cardapio);
     bool flag = true;
-    string pedido;
-    int mesa;
+    string mesa;
+    int pedido;
     regex integer("(\\+|-)?[[:digit:]]+");
     while (flag) {
-        cin >> pedido;
-        if (regex_match(pedido, integer)) {
-            cin >> mesa;
-            cout << pedido << endl;
-            Comida *comi = rest.BuscarComida((unsigned int) atoi(pedido.c_str()));
+        cin >> mesa;
+        if (regex_match(mesa, integer)) {
+            cin >> pedido;
+            Comida *comi = rest.BuscarComida((unsigned int) pedido);
             if (comi != nullptr) {
-                Pedido p(*comi, mesa);
-                rest.EnviarPedido(p);
+                Pedido pe(*comi, atoi(mesa.c_str()));
+                rest.EnviarPedido(pe);
             } else {
                 cout << "ESSA OPÇÃO NÃO ESTA EM NOSSO CARDÁPIO" << endl;
             }
         } else {
-            if (pedido.compare("FIM") == 0) {
+            if (mesa.compare("FIM") == 0) {
                 cout << "O EXPEDIENTE FOI ENCERRADO POR HOJE !!. OBRIGADO PELA PREFERÊNCIA ! " << endl;
                 delete &rest;
                 flag = false;
             } else {
-                    cout << "ENTRADA INVÁLIDA" << endl;
+                cout << "ENTRADA INVÁLIDA" << endl;
             }
         }
-
 
     }
     return 0;
