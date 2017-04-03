@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/CozinhaMagica2.dir/main.cpp.o CMakeFiles/CozinhaMagica2.dir/Restaurante.cpp.o  -o CozinhaMagica2  -L/usr/include -lpthread -lm -lrt -Wl,-rpath,/usr/include 

@@ -1,3 +1,0 @@
-/home/rafael/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/rafael/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/rafael/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir
