@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug"/>
+				<Option working_dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug"/>
+				<Option working_dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug"/>
+				<Option working_dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CozinhaMagica">
-				<Option output="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CozinhaMagica" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug"/>
+				<Option output="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug/CozinhaMagica" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include/c++/4.9/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 CozinhaMagica"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 CozinhaMagica"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CozinhaMagica/fast">
-				<Option output="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CozinhaMagica" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug"/>
+				<Option output="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug/CozinhaMagica" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,41 +77,41 @@
 					<Add directory="/usr/include/c++/4.9/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 CozinhaMagica/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 CozinhaMagica/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho\ II\ -\ Threads/CozinhaMagica/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.cpp">
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Cardapio.cpp">
 			<Option target="CozinhaMagica"/>
 		</Unit>
-		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.h">
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Cardapio.h">
 			<Option target="CozinhaMagica"/>
 		</Unit>
-		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Comida.h">
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Comida.h">
 			<Option target="CozinhaMagica"/>
 		</Unit>
-		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.cpp">
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Cozinheiro.cpp">
 			<Option target="CozinhaMagica"/>
 		</Unit>
-		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.h">
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Cozinheiro.h">
 			<Option target="CozinhaMagica"/>
 		</Unit>
-		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Pedidos.h">
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Pedidos.h">
 			<Option target="CozinhaMagica"/>
 		</Unit>
-		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Restaurante.cpp">
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Restaurante.cpp">
 			<Option target="CozinhaMagica"/>
 		</Unit>
-		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Restaurante.h">
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Restaurante.h">
 			<Option target="CozinhaMagica"/>
 		</Unit>
-		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/main.cpp">
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/main.cpp">
 			<Option target="CozinhaMagica"/>
 		</Unit>
-		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/CMakeLists.txt">
+		<Unit filename="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,0 +1,72 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho I  - Processos Fork/Trabalho /untitled/Cozinheiro.cpp
+zconf.h
+-
+cstdlib
+-
+cstring
+-
+signal.h
+-
+iostream
+-
+unistd.h
+-
+Cozinheiro.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho I  - Processos Fork/Trabalho /untitled/Cozinheiro.h
+
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho I  - Processos Fork/Trabalho /untitled/Cozinheiro.h
+fstream
+-
+
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho I  - Processos Fork/Trabalho /untitled/Mesa.cpp
+signal.h
+-
+iostream
+-
+Mesa.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho I  - Processos Fork/Trabalho /untitled/Mesa.h
+
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho I  - Processos Fork/Trabalho /untitled/Mesa.h
+string
+-
+Cozinheiro.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho I  - Processos Fork/Trabalho /untitled/Cozinheiro.h
+
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho I  - Processos Fork/Trabalho /untitled/Restaurante.cpp
+csignal
+-
+iostream
+-
+zconf.h
+-
+wait.h
+-
+unistd.h
+-
+Restaurante.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho I  - Processos Fork/Trabalho /untitled/Restaurante.h
+
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho I  - Processos Fork/Trabalho /untitled/Restaurante.h
+string
+-
+queue
+-
+Cozinheiro.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho I  - Processos Fork/Trabalho /untitled/Cozinheiro.h
+Mesa.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho I  - Processos Fork/Trabalho /untitled/Mesa.h
+
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho I  - Processos Fork/Trabalho /untitled/main.cpp
+iostream
+-
+Restaurante.h
+/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho I  - Processos Fork/Trabalho /untitled/Restaurante.h
+

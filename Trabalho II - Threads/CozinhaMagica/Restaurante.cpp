@@ -9,7 +9,6 @@ static queue<Pedido> pedidos;
 bool Restaurante::fechar = true;
 
 
-
 Restaurante::Restaurante(int cozinheiros, int mesas, Cardapio &cardapio) {
     this->cardapio = cardapio;
     this->coz = new Cozinheiro *[cozinheiros];
@@ -40,7 +39,9 @@ bool Restaurante::AguardarThreads(int qtd) {
 
     for (int i = 0; i < qtd; i++) {
         coz[i]->Aguardar();
+
     }
+    cout << "Fechamos a Cozinha" << endl;
     return false;
 }
 

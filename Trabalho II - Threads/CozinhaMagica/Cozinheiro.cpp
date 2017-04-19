@@ -43,6 +43,7 @@ void *Cozinheiro::Semaforo(void *v) {
     int id = +1 + *(int *) v;
     string buffer;
     while (1) {
+
         sem_wait(&sem_pedido);
         if (*(int *) &sem_pedido > 0 || Restaurante::fechar) {
             sem_wait(&sem_fila);
@@ -54,6 +55,7 @@ void *Cozinheiro::Semaforo(void *v) {
             Trabalhar(p);
         } else {
             sem_post(&sem_pedido);
+
             break;
         }
 

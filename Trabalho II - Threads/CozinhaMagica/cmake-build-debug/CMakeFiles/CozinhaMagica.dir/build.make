@@ -43,10 +43,10 @@ RM = /opt/clion-2016.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica
+CMAKE_SOURCE_DIR = "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CozinhaMagica.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/CozinhaMagica.dir/flags.make
 
 CMakeFiles/CozinhaMagica.dir/main.cpp.o: CMakeFiles/CozinhaMagica.dir/flags.make
 CMakeFiles/CozinhaMagica.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CozinhaMagica.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CozinhaMagica.dir/main.cpp.o -c /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CozinhaMagica.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CozinhaMagica.dir/main.cpp.o -c "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/main.cpp"
 
 CMakeFiles/CozinhaMagica.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CozinhaMagica.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/main.cpp > CMakeFiles/CozinhaMagica.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/main.cpp" > CMakeFiles/CozinhaMagica.dir/main.cpp.i
 
 CMakeFiles/CozinhaMagica.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CozinhaMagica.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/main.cpp -o CMakeFiles/CozinhaMagica.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/main.cpp" -o CMakeFiles/CozinhaMagica.dir/main.cpp.s
 
 CMakeFiles/CozinhaMagica.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/CozinhaMagica.dir/main.cpp.o.provides.build: CMakeFiles/CozinhaMagica
 
 CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o: CMakeFiles/CozinhaMagica.dir/flags.make
 CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o: ../Cozinheiro.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o -c /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o -c "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Cozinheiro.cpp"
 
 CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.cpp > CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Cozinheiro.cpp" > CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.i
 
 CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cozinheiro.cpp -o CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Cozinheiro.cpp" -o CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.s
 
 CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/CozinhaMagica.dir/Cozinheiro.cpp.o.provides.build: CMakeFiles/Cozinha
 
 CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o: CMakeFiles/CozinhaMagica.dir/flags.make
 CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o: ../Cardapio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o -c /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o -c "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Cardapio.cpp"
 
 CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.cpp > CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Cardapio.cpp" > CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.i
 
 CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Cardapio.cpp -o CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Cardapio.cpp" -o CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.s
 
 CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o.provides.build: CMakeFiles/CozinhaMa
 
 CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o: CMakeFiles/CozinhaMagica.dir/flags.make
 CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o: ../Restaurante.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o -c /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Restaurante.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o -c "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Restaurante.cpp"
 
 CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Restaurante.cpp > CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Restaurante.cpp" > CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.i
 
 CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/Restaurante.cpp -o CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/Restaurante.cpp" -o CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.s
 
 CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o.requires:
 
@@ -169,7 +169,7 @@ CozinhaMagica: CMakeFiles/CozinhaMagica.dir/Cardapio.cpp.o
 CozinhaMagica: CMakeFiles/CozinhaMagica.dir/Restaurante.cpp.o
 CozinhaMagica: CMakeFiles/CozinhaMagica.dir/build.make
 CozinhaMagica: CMakeFiles/CozinhaMagica.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CozinhaMagica"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CozinhaMagica"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CozinhaMagica.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,6 +189,6 @@ CMakeFiles/CozinhaMagica.dir/clean:
 .PHONY : CMakeFiles/CozinhaMagica.dir/clean
 
 CMakeFiles/CozinhaMagica.dir/depend:
-	cd /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug /home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug" "/home/rafael/Documentos/Repositorios/UFMS/Materias/4Semestre/SO/Trabalho II - Threads/CozinhaMagica/cmake-build-debug/CMakeFiles/CozinhaMagica.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/CozinhaMagica.dir/depend
 

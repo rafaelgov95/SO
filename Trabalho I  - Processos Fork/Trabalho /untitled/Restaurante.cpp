@@ -76,7 +76,7 @@ void Restaurante::IniciarAtendimentoAMesa(int id) {
 }
 
 void GerenteFinalizaConta(int s) {
-    cout << "entro aqui " << endl;
+
     int saved_errno = errno;
     while (waitpid((pid_t) (-1), 0, WNOHANG) > 0) {}
     errno = saved_errno;
